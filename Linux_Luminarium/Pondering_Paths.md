@@ -50,7 +50,7 @@
 - Flag Obtained: pwn.college{Idyan8aOFERShuQwk7RGvkrrmFo.dFTN1QDLwMTN0czW} 
 
 ## Home sweet Home
-- Commands used:
-- Thought Process:  
+- Commands used: `/path/to/program`, `/path/to/program destination/path`
+- Thought Process: Need to run a program "run" so we provide the path to the program, it shows we need to  
 - Solution:  
-- Flag Obtained: 
+- Flag Obtained: pwn.college{o1FKZ_kQrruvJHIsAgnoa9hoE5a.dNzM4QDLwMTN0czW} 
