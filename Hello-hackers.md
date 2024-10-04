@@ -5,4 +5,4 @@
 - Commands used: `whoami`,`hello`
 - Thought Process: Invoke the `hello` command  
 - Solution: Started the challenge and used the `hello` command to get the flag.  
-- Flag Obtained - **pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}**
+- Flag Obtained: **pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}**
