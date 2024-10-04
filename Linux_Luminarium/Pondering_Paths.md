@@ -14,10 +14,10 @@
 - Flag Obtained: pwn.college{8q0lSIhwUn4jHnAD_31630V3XBz.dVDN1QDLwMTN0czW} 
 
 ## Position thy self
-- Commands used:
-- Thought Process:  
-- Solution:  
-- Flag Obtained: 
+- Commands used: `cd`, `/path/to/program`
+- Thought Process: Need to run a program "run" so we provide the path to the program, it shows we need to be in "etc" directory so use `cd` to go into "etc" and then run the program again.    
+- Solution: Start the challenge, input the command `cd etc` to go into "etc" directory, input `/challenge/run` to provide the absolute path to the program "run" and run the program.  
+- Flag Obtained: pwn.college{8VKb_2A6RrzhdOXbDnaJIEYiKKF.dZDN1QDLwMTN0czW} 
 
 ## Position elsewhere
 - Commands used:
