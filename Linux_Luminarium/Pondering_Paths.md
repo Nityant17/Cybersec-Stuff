@@ -20,10 +20,10 @@
 - Flag Obtained: pwn.college{8VKb_2A6RrzhdOXbDnaJIEYiKKF.dZDN1QDLwMTN0czW} 
 
 ## Position elsewhere
-- Commands used:
-- Thought Process:  
-- Solution:  
-- Flag Obtained: 
+- Commands used: `cd`, `/path/to/program`
+- Thought Process: Need to run a program "run" so we provide the path to the program, it shows we need to be in "/var/log" directory so use `cd` to go into "/var/log" and then run the program again.  
+- Solution: Start the challenge, use `cd` command to go into "/var/log" directory, input `/challenge/run` to provide the absolute path to the program "run" and run the program.  
+- Flag Obtained: pwn.college{sq5gPhcSYO1IXoVXMgbA5bk37AU.ddDN1QDLwMTN0czW} 
 
 ## Position yet elsewhere
 - Commands used:
