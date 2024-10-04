@@ -44,10 +44,10 @@
 - Flag Obtained: pwn.college{coz0ZGgYzP4ni0nXG4QNMPBUqY6.dBTN1QDLwMTN0czW} 
 
 ## Implicit relative path
-- Commands used:
-- Thought Process:  
-- Solution:  
-- Flag Obtained: 
+- Commands used: `cd path`, `cd ..`, `./relative/path`
+- Thought Process: Need to run a program "run" so we provide the path to the program, it shows we need to run the program from "challenge" directory so use `cd ..` and `cd path` to go into "/challenge" and then input `./run` to run the program as "." refers to same directory currently in so it doesnt affect the path and without `./` if you enter just the program name it will refer to program name "run" as command and give an error.  
+- Solution: Start the challenge, use `cd ..` and `cd path` command to go into "/challenge" directory, input `./run` to run the program.  
+- Flag Obtained: pwn.college{Idyan8aOFERShuQwk7RGvkrrmFo.dFTN1QDLwMTN0czW} 
 
 ## Home sweet Home
 - Commands used:
