@@ -4,7 +4,7 @@
 ## The Root
 - Commands used: `/path/to/program`
 - Thought Process: Need to run a program "pwn" so have to provide the path to the program.  
-- Solution: Start the challenge, input the command `/pwn` to provide the absolute path to the program and run the program.  
+- Solution: Start the challenge, input the command `/pwn` to provide the absolute path to the program "pwn" and run the program.  
 - Flag Obtained: pwn.college{wTJXuNWgdAtmNcWldhERWicO1lI.dhzN5QDLwMTN0czW} 
 
 ## Program and absolute paths
