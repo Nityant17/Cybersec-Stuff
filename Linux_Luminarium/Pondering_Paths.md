@@ -2,10 +2,10 @@
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
 ## The Root
-- Commands used:
-- Thought Process:  
-- Solution:  
-- Flag Obtained: 
+- Commands used: `/path/to/program`
+- Thought Process: Need to run a program "pwn" so have to provide the path to the program.  
+- Solution: Start the challenge, input the command `/pwn` to provide the absolute path to the program and run the program.  
+- Flag Obtained: pwn.college{wTJXuNWgdAtmNcWldhERWicO1lI.dhzN5QDLwMTN0czW} 
 
 ## Program and absolute paths
 - Commands used:
