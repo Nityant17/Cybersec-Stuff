@@ -16,16 +16,16 @@
 
 ## catting absolute paths
 **Commands used:**
-- `cat`  : Used to 
+- `cat /path/to/file`  : Used to concatenate/read files with specified absolute path
 
 **Thought Process:**
-- Need to 
+- Need to read the "flag" file in "/" directory to get the flag, so read it using `cat /path/to/file` command.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `cat /flag` to read the file "flag" specified by its absolute path and get the flag.  
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{0RpfeW_1ktmqLLoVtFJRvh9VZDA.dlTM5QDLwMTN0czW}* 
 
 ## more catting practice
 **Commands used:**
