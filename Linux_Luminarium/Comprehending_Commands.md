@@ -116,7 +116,7 @@
 - Need to start by changing directoty to "/" usinf `cd` and viewing files in it using `ls` to find the clue file and then reading it using `cat` to find out what to do next. The clue tells us where and how to look for the next clue file, just keep follow all the clues using all the things i learned till now to finally get the flag.
 
 **Solution:**
-- Start the challenge, input the command ` cd /` to change directory, then use `ls` to view all the files and find the clue file, "LEAD" was the first clue file, read it using `cat LEAD` and find out where the next clue file is and how to get to it. Just keep on following all the clues and satisfying the clue conditions usinf all the commands learned till now to finall get the flag.
+- Start the challenge, input the command ` cd /` to change directory, then use `ls` to view all the files and find the clue file, "LEAD" was the first clue file, read it using `cat LEAD` and find out where the next clue file is and how to get to it. Just keep on following all the clues and satisfying the clue conditions using all the commands learned till now to finally get the flag.
 
 **Flag Obtained:**
 - *pwn.college{kLFQwTWkzNChF6xE4FxCjrZSXhM.dljM4QDLwMTN0czW}* 
