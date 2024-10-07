@@ -107,7 +107,10 @@
 
 ## An Epic Filesystem Quest
 **Commands used:**
-- `cat`  : Used to 
+- `cat /path/to/file`  : Used to concatenate/read files with specified absolute path
+- `ls /path`  : Used to list files in all the directories provided to it as path, and in the current directory if no path is provided
+- `ls /path -a`  : Used to list all the files(even hidden files) in all the directories provided to it as path, and in the current directory if no path is provided
+- `cd` 
 
 **Thought Process:**
 - Need to 
@@ -116,7 +119,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{kLFQwTWkzNChF6xE4FxCjrZSXhM.dljM4QDLwMTN0czW}* 
 
 ## making directories
 **Commands used:**
