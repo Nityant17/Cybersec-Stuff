@@ -2,9 +2,8 @@
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
 ## The Root
-
 **Commands used:**
-- `/path/to/program`  : Used to go to run the program with the given path
+- `/path/to/program`  : Used to run the program with the given path
 
 **Thought Process:**
 - Need to run a program "pwn" so have to provide the path to the program.  
