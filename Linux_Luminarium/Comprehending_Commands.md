@@ -42,16 +42,16 @@
 
 ## grepping for a needle in a haystack
 **Commands used:**
-- `cat`  : Used to 
+- `grep SEARCH_STRING /path/to/file`  : Used to search for a particular string in files
 
 **Thought Process:**
-- Need to 
+- Need to search for the flag in `/challenge/data.txt` a file with alot of data, so use `grep` to search for the line with string "pwn.college" since all flags start with that and that will be the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `grep "pwn.college" /challenge/data.txt` to get the line which conatins "pwn.college" in the file and get the flag.
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{wQ5TQZyp-llG-pp5lTsA4U8XP6M.ddTM4QDLwMTN0czW}* 
 
 ## listing files
 **Commands used:**
