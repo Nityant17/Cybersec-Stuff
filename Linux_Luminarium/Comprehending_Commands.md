@@ -14,7 +14,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## catting absolute paths
 **Commands used:**
 - `cat`  : Used to 
 
@@ -27,7 +27,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## more catting practice
 **Commands used:**
 - `cat`  : Used to 
 
@@ -40,7 +40,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## grepping for a needle in a haystack
 **Commands used:**
 - `cat`  : Used to 
 
@@ -53,7 +53,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## listing files
 **Commands used:**
 - `cat`  : Used to 
 
@@ -66,7 +66,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## touching files
 **Commands used:**
 - `cat`  : Used to 
 
@@ -79,7 +79,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## removing files
 **Commands used:**
 - `cat`  : Used to 
 
@@ -92,7 +92,7 @@
 **Flag Obtained:**
 - ** 
 
-## cat: not the pet, but the command!
+## hidden files
 **Commands used:**
 - `cat`  : Used to 
 
@@ -105,4 +105,54 @@
 **Flag Obtained:**
 - ** 
 
+## An Epic Filesystem Quest
+**Commands used:**
+- `cat`  : Used to 
 
+**Thought Process:**
+- Need to 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## making directories
+**Commands used:**
+- `cat`  : Used to 
+
+**Thought Process:**
+- Need to 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## finding files
+**Commands used:**
+- `cat`  : Used to 
+
+**Thought Process:**
+- Need to 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## linking files
+**Commands used:**
+- `cat`  : Used to 
+
+**Thought Process:**
+- Need to 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
