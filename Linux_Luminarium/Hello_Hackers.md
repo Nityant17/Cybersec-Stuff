@@ -2,7 +2,6 @@
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
 ## Intro to Commands
-
 **Commands used:** 
 - `whoami` : Prints the current username
 - `hello`  : Command to get the flag
@@ -17,7 +16,6 @@
 - *pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}*
 
 ## Intro to Arguments  
-
 **Commands used:**
 - `echo`   : Prints whatever you give as argument
 - `hello`  : Command to get the flag
