@@ -3,10 +3,14 @@
 
 ## Intro to Commands
 ### Commands used: 
-`whoami`,`hello`
-- Thought Process: Need to invoke the `hello` command. 
-- Solution: Started the challenge and used the `hello` command to get the flag.  
-- Flag Obtained: pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}
+- `whoami`
+- `hello`
+### Thought Process: 
+Need to invoke the `hello` command. 
+### Solution: 
+Started the challenge and used the `hello` command to get the flag.  
+### Flag Obtained: 
+pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}
 
 ## Intro to Arguments  
 - Commands used: `echo`,`hello`
