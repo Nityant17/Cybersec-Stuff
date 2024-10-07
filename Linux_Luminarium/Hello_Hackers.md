@@ -1,7 +1,7 @@
 # Hello Hackers  
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
-## Intro to Commands
+## **Intro to Commands**
 ### Commands used: 
 - `whoami`
 - `hello`
