@@ -29,16 +29,16 @@
 
 ## more catting practice
 **Commands used:**
-- `cat`  : Used to 
+- `cat /path/to/file`  : Used to concatenate/read files with specified absolute path 
 
 **Thought Process:**
-- Need to 
+- Need to read the "flag" file in "/usr/aarch64-linux-gnu/" directory without using cd to get the flag i.e open with absolute path, so read it using `cat /path/to/file` command. 
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command ` cat /usr/aarch64-linux-gnu/flag` to read the file "flag" specified by its absolute path and get the flag.     
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{oBrZuXVh0wVu5jxaRpRcziMAOmZ.dBjM5QDLwMTN0czW}* 
 
 ## grepping for a needle in a haystack
 **Commands used:**
