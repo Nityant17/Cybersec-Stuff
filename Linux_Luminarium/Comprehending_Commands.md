@@ -81,16 +81,16 @@
 
 ## removing files
 **Commands used:**
-- `cat`  : Used to 
+- `rm`  : Used to remove files
 
 **Thought Process:**
-- Need to 
+- Need to delete the `delete_me` file and run "/check" program to confirm the deletion and get the flag, so use `rm` command to delete the file and run the program.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command  `rm delete_me` to delete the file, then input `/challenges/check` to run the program to confirm the deletion and get the flag.
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{4jEYOqYwBz_ZbxlrmlgZmgW4WHT.dZTOwUDLwMTN0czW}* 
 
 ## hidden files
 **Commands used:**
