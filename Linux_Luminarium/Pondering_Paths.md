@@ -1,6 +1,22 @@
 # Pondering Paths  
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
+## HI
+
+**Commands used:** 
+- `whoami` : Prints the current username
+- `hello`  : Command to get the flag
+
+**Thought Process:** 
+- Need to invoke the `hello` command  so just need to input it. 
+
+**Solution:** 
+- Started the challenge and used the `hello` command to get the flag.  
+
+**Flag Obtained:** 
+- *pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}*
+
+
 ## The Root
 - Commands used: `/path/to/program`
 - Thought Process: Need to run a program "pwn" so have to provide the path to the program.  
