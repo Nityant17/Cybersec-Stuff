@@ -6,13 +6,13 @@
 - `cat`  : Used to concatenate/read files
 
 **Thought Process:**
-- Need to 
+- Need to reag the "flag" file to get the flag, so read it using `cat` command.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `cat flag` to read the file "flag" and get the flag. 
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{AbnHoFH1cTooNQJfHC_ErzHMwv5.dFzN1QDLwMTN0czW}* 
 
 ## catting absolute paths
 **Commands used:**
