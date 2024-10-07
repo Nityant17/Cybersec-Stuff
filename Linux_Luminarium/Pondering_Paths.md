@@ -4,6 +4,7 @@
 ## The Root
 **Commands used:**
 - `/path/to/program`  : Used to run the program with the given path
+
 **Thought Process:**
 - Need to run a program "pwn" so have to provide the path to the program.  
 
