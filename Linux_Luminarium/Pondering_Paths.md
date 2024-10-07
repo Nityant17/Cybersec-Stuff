@@ -15,10 +15,17 @@
 - *pwn.college{wTJXuNWgdAtmNcWldhERWicO1lI.dhzN5QDLwMTN0czW}* 
 
 ## Program and absolute paths
-- Commands used: `/path/to/program`
-- Thought Process: Need to run a program "run" so have to provide the path to the program.  
-- Solution: Start the challenge, input the command `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
-- Flag Obtained: pwn.college{8q0lSIhwUn4jHnAD_31630V3XBz.dVDN1QDLwMTN0czW} 
+**Commands used:**
+- `/path/to/program`  : Used to run the program with the given path 
+
+**Thought Process:**
+- Need to run a program "run" so have to provide the path to the program.  
+
+**Solution:**
+- Start the challenge, input the command `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
+
+**Flag Obtained:**
+- *pwn.college{8q0lSIhwUn4jHnAD_31630V3XBz.dVDN1QDLwMTN0czW}* 
 
 ## Position thy self
 - Commands used: `cd path`, `cd ..`, `/path/to/program`
