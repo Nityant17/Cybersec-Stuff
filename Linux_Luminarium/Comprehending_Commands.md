@@ -68,16 +68,16 @@
 
 ## touching files
 **Commands used:**
-- `cat`  : Used to 
+- `touch`  : Used to create a new blank file
 
 **Thought Process:**
-- Need to 
+- Need to create 2 new file `/tmp/pwn` and `/tmp/college` to be able to run thr "/run" file, so create them by using `touch` command and providing the path and name of these files as argument, then run the "/run" file to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `touch /tmp/pwn` and `touch /tmp/college`, now run the "/run" file using `/challenge/run` to get the flag. 
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{QXfoEI3dO67N5wDy5N_nwNm4f1T.dBzM4QDLwMTN0czW}* 
 
 ## removing files
 **Commands used:**
