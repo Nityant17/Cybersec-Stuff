@@ -3,7 +3,7 @@
 
 ## cat: not the pet, but the command!
 **Commands used:**
-- `cat`  : Used to 
+- `cat`  : Used to concatenate/read files
 
 **Thought Process:**
 - Need to 
