@@ -1,16 +1,16 @@
 # Hello Hackers  
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
-## **Intro to Commands**
+## Intro to Commands
 ### Commands used: 
-- `whoami`
-- `hello`
+- `whoami` : Prints the current username
+- `hello`  : Command to run to get the flag
 ### Thought Process: 
-Need to invoke the `hello` command. 
+Need to invoke the `hello` command  so just need to input it. 
 ### Solution: 
 Started the challenge and used the `hello` command to get the flag.  
 ### Flag Obtained: 
-pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}
+*pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}*
 
 ## Intro to Arguments  
 - Commands used: `echo`,`hello`
