@@ -94,16 +94,16 @@
 
 ## hidden files
 **Commands used:**
-- `cat`  : Used to 
+- `ls /path -a`  : Used to list all the files(even hidden files) in all the directories provided to it as path, and in the current directory if no path is provided
 
 **Thought Process:**
-- Need to 
+- Need to find the flag file hidden by prepending with a "." in "/" directory, so `cd` to "/" directory and use `ls -a` to view all the hidden files and find the one with the flag in it, then use `cat` to read that file to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `cd /` to change to "/" directory, then input `ls -a` to find the hidden file, the file was ".flag-2990434728803", now read it by using `cat .flag-2990434728803` to get the flag.  
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{sXGm6tFjhLcjc0qyRf4eReUC2Rm.dBTN4QDLwMTN0czW}* 
 
 ## An Epic Filesystem Quest
 **Commands used:**
