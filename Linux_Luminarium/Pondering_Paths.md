@@ -113,7 +113,7 @@
 
 ## Home sweet Home
 **Commands used:**
-- `/path/to/program`  : Used to run the program with the given absolute path
+- `/~/path/to/program`  : Used to run the program with the given absolute path and `~` is used to represent the home directory
 
 **Thought Process:**
 - Need to run a program "run" so we provide the path to the program, it shows we need to provide the destination where the flag will be copied to as an argument, it must be less than 3 characters and the destination must be inside home directory so provide `~/f` as argument, here `~` is used to represent home directory and thus satsify all the conditions to get the flag.  
