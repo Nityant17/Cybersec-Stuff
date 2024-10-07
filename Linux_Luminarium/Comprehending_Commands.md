@@ -2,74 +2,16 @@
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
 ## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
+**Commands used:**
+- `cat`  : Used to 
 
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
+**Thought Process:**
+- Need to 
 
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
+**Solution:**
+- Start the challenge, input the command  
 
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
+**Flag Obtained:**
+- ** 
 
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
-
-## cat: not the pet, but the command!
-- Commands used:
-- Thought Process: 
-- Solution: 
-- Flag Obtained: 
 
