@@ -61,7 +61,7 @@
 - Need to find the new name of "/run" file to run the program, so use the `ls` command to see all the files inside of "/challenge" and find the new program file to run and get the flag. 
 
 **Solution:**
-- Start the challenge, input the command `ls /challenge/` to view all the files inside "/challenge" directory and find the one to run, after finding the file run the command `/challenge/25245-renamed-run-19645` to run the program and get the flag. 
+- Start the challenge, input the command `ls /challenge/` to view all the files inside "/challenge" directory and find the one to run, the file was renamed to "25245-renamed-run-19645" now run the command `/challenge/25245-renamed-run-19645` to run the program and get the flag. 
 
 **Flag Obtained:**
 - *pwn.college{ELSh0QSexQTjRsdr1FUw9r5OZhl.dhjM4QDLwMTN0czW}* 
