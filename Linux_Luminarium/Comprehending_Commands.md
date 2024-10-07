@@ -6,3 +6,70 @@
 - Thought Process: 
 - Solution: 
 - Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
+## cat: not the pet, but the command!
+- Commands used:
+- Thought Process: 
+- Solution: 
+- Flag Obtained: 
+
