@@ -6,7 +6,7 @@
 - `cat`  : Used to concatenate/read files
 
 **Thought Process:**
-- Need to reag the "flag" file to get the flag, so read it using `cat` command.
+- Need to read the "flag" file to get the flag, so read it using `cat` command.
 
 **Solution:**
 - Start the challenge, input the command `cat flag` to read the file "flag" and get the flag. 
