@@ -81,7 +81,7 @@
 
 ## Help For Builtins
 **Commands used:**
-- `cmnd`  : Used to 
+- `help cmnd`  : Used to get a list of arguments of shell builtin cmnds
 
 **Thought Process:**
 - Need to
@@ -90,5 +90,5 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-> ** 
+> *pwn.college{0FOCCYi0NPOjsvDeThA0zjVWCxJ.dRTM5QDLwMTN0czW}* 
 
