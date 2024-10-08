@@ -12,7 +12,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> **
 
 ## Learning Complex Usage
 **Commands used:**
@@ -25,7 +25,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> **
 
 ## Reading Manuals
 **Commands used:**
@@ -38,7 +38,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> **
 
 ## Searching Manuals
 **Commands used:**
@@ -51,7 +51,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> **
 
 ## Searching For Manuals
 **Commands used:**
@@ -64,7 +64,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> ** 
 
 ## Helpful Programs
 **Commands used:**
@@ -77,7 +77,7 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> **
 
 ## Help For Builtins
 **Commands used:**
@@ -90,5 +90,5 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+> ** 
 
