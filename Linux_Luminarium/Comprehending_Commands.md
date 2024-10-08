@@ -129,7 +129,7 @@
 - Need to make a new file `college` in a new directory `/tmp/pwn` so create it using `mkdir` and `touch` command and then then run the "run" program to get flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `mkdir /tmp/pwn` to make the directory, then input `touch /tmp/pwn/college` to make the required file, and then input `/challenge/run` to run the program and get the flag.  
 
 **Flag Obtained:**
 - *pwn.college{cXkqo9DSQAS7b_LpuXknFiS3SCA.dFzM4QDLwMTN0czW}* 
