@@ -149,13 +149,13 @@
 
 ## linking files
 **Commands used:**
-- `ln -s /source/file /destination/file`  : Used to create a symbolic between source file and destination file i.e reading the destination file will give the content of source file
+- `ln -s /source/file /destination/file`  : Used to create a symbolic link between source file and destination file i.e reading the destination file will give the content of source file
 
 **Thought Process:**
-- Need to 
+- Need to read the `/flag` file using `/challenge/catflag` program but it reads the `/home/hacker/not-the-flag` file, so create a symbolic link between the two files using the `ln -s` command so that on reading the `/home/hacker/not-the-flag` file it reads the content of `/flag` file and get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `ln -s /flag /home/hacker/not-the-flag` to create the symbolic link between the two files and then run the program using `/challenge/run` to read the file and get the flag.  
 
 **Flag Obtained:**
 - *pwn.college{oGDrqV_G1gtKLoUm5EutEC_8n5U.dlTM1UDLwMTN0czW}* 
