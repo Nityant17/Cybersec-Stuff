@@ -13,7 +13,7 @@
 - Started the challenge and used the `hello` command to get the flag.  
 
 **Flag Obtained:** 
-- *pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}*
+>*pwn.college{gOZAjVDELWTYbF4_2SsoKHLxxEd.ddjNyUDLwMTN0czW}*
 
 ## Intro to Arguments  
 **Commands used:**
@@ -27,4 +27,4 @@
 - Started the challenge and inputted `hello hackers` where `hello` is the command and "hackers" is the argument to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{8k1YQGnLE4PISzhhKv9Zkc1rDFz.dhjNyUDLwMTN0czW}*
+>*pwn.college{8k1YQGnLE4PISzhhKv9Zkc1rDFz.dhjNyUDLwMTN0czW}*
