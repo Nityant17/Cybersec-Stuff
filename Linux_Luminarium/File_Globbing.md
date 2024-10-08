@@ -35,7 +35,7 @@
 - Need to change your working directory to "/challenge/files" and run `/challenge/run` with a single argument that bracket globs into "file_b", "file_a", "file_s", and "file_h" so use `[]` to create the set of wildcards and satisfy the condition to get the flag.
 
 **Solution:**
-- Start the challenge, input the command `cd /challenge/files` to change the directory to "challenge/files" and then use the command `/challenge/run file_[absh]` to the run the program satisfying all the conditions and get the flag. 
+- Start the challenge, input the command `cd /challenge/files` to change the directory to "challenge/files" and then use the command `/challenge/run file_[absh]` to run the program satisfying all the conditions and get the flag. 
 
 **Flag Obtained:**
 > *pwn.college{kRXXvhHS4_iitjLUmWWXE0uo_YD.dNjM4QDLwMTN0czW}*
@@ -48,7 +48,7 @@
 - Need to run `/challenge/run` from the home directory with a single argument that bracket globs into the absolute paths to the "file_b", "file_a", "file_s, and "file_h" files in the "/challenge/files" directory.
 
 **Solution:**
-- Start the challenge, input the command `/challenge/run /challenge/files/file_[absh]` to the run the program satisfying all the conditions and get the flag.   
+- Start the challenge, input the command `/challenge/run /challenge/files/file_[absh]` to run the program satisfying all the conditions and get the flag.   
 
 **Flag Obtained:**
 > *pwn.college{4N6OIBlbSePoPzszKVMB22fba6c.dRjM4QDLwMTN0czW}*
@@ -59,23 +59,23 @@
 - `[]`  : Used to shorten the file path, the shell will treat it as a "wildcard for some subset of potential characters", specified within the brackets  
 
 **Thought Process:**
-- Need to change your working directory to "/challenge/files" and run `/challenge/run` with a argument less than 6 characters that will match the files "challenging", "educational", and "pwning", so use all the globbing techniques learned till now to satisfy the condition and get the flag.
+- Need to change your working directory to "/challenge/files" and run `/challenge/run` with an argument less than 6 characters that will match the files "challenging", "educational", and "pwning", so use all the globbing techniques learned till now to satisfy the condition and get the flag.
 
 **Solution:**
-- Start the challenge, input the command `cd /challenge/files` to change the directory to "/challenge/files", use `ls` to see all the files and we notice that there are only 1 file each starting with "c", "p" and "e" (the required ones) so use the command `/challenge/run [cpe]*` to the run the program satisfying all the conditions and get the flag.   
+- Start the challenge, input the command `cd /challenge/files` to change the directory to "/challenge/files", use `ls` to see all the files and we notice that there are only 1 file each starting with "c", "p" and "e" (the required ones) so use the command `/challenge/run [cpe]*` to run the program satisfying all the conditions and get the flag.   
 
 **Flag Obtained:**
 > *pwn.college{QZ6K3oNKH21dZ7pET6mgLx8aHKR.dVjM4QDLwMTN0czW}*
 
 ## Exclusionary globbing
 **Commands used:**
-- `cmnd`  : Used to  
+- `[^ or !]`  : Used to exclude certain files containing some specific characters, specified within the brackets   
 
 **Thought Process:**
-- Need to
+- Need to change your working directory to "/challenge/files" and run `/challenge/run` with an argument that will match all files except the ones starting with "p", "w", or "n" so use `[^]` to satisfy the condition and get the flag. 
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `cd /challenge/files` to change the directory to "challenge/files" and then use the command `/challenge/run [^pwn]*` to run the program satisfying all the conditions and get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{0ahYF8AFodlVNnjYBhXIl8JK9y9.dZjM4QDLwMTN0czW}*
