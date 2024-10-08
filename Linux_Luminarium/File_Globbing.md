@@ -29,7 +29,7 @@
 
 ## Matching with []
 **Commands used:**
-- `cmnd`  : Used to  
+- `[]`  : Used to shorten the file path, the shell will treat it as a "wildcard for some subset of potential characters", specified within the brackets  
 
 **Thought Process:**
 - Need to
