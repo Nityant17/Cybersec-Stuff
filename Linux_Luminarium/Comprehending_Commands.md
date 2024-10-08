@@ -149,7 +149,7 @@
 
 ## linking files
 **Commands used:**
-- `cat`  : Used to 
+- `ln -s /source/file /destination/file`  : Used to create a symbolic between source file and destination file i.e reading the destination file will give the content of source file
 
 **Thought Process:**
 - Need to 
@@ -158,4 +158,4 @@
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{oGDrqV_G1gtKLoUm5EutEC_8n5U.dlTM1UDLwMTN0czW}* 
