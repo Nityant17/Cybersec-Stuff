@@ -68,16 +68,16 @@
 
 ## Helpful Programs
 **Commands used:**
-- `cmnd`  : Used to 
+- `cmnd --help`  : Used to tell how to run the command 
 
 **Thought Process:**
-- Need to
+- Need to find the secret argument of `challenge` that will give the flag, so find it using `--help` argument and run the program with the argument to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `/challenge/challenge --help` to see how to run the command, we see that if we use the argument `-g value` with the correct value it will give the flag and if we use the argument `-p` it will show what value we need to input. So use the command `/challenge/challenge -p` it shows that the value is "8" so run the command `/challenge/challenge -g 8` to get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{wY0EjKlUZhe0Sa8DIhr-93ZD4ph.ddjM4QDLwMTN0czW}*
 
 ## Help For Builtins
 **Commands used:**
