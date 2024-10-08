@@ -123,16 +123,16 @@
 
 ## making directories
 **Commands used:**
-- `mkdir`  : Used to 
+- `mkdir`  : Used to make a new directory to the specified path
 
 **Thought Process:**
-- Need to 
+- Need to make a new file `college` in a new directory `/tmp/pwn` so create it using `mkdir` and `touch` command and then then run the "run" program to get flag.
 
 **Solution:**
 - Start the challenge, input the command  
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{cXkqo9DSQAS7b_LpuXknFiS3SCA.dFzM4QDLwMTN0czW}* 
 
 ## finding files
 **Commands used:**
