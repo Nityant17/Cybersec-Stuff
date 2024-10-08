@@ -38,7 +38,7 @@
 - Start the challenge, input the command `man challenge` to find all the argument options for the command, we find that if we run the program `/challenge/challenge` with the argument `--batbgf 797` it will give the flag, so use the command `/challenge/challenge --batbgf 797` with the correct arguments and get the flag.  
 
 **Flag Obtained:**
-> * pwn.college{QbMXa7tbg9fQ7WqN6us4x3onlKI.dRTM4QDLwMTN0czW}*
+> *pwn.college{QbMXa7tbg9fQ7WqN6us4x3onlKI.dRTM4QDLwMTN0czW}*
 
 ## Searching Manuals
 **Commands used:**
