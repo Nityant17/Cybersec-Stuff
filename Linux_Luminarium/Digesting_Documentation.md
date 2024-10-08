@@ -3,16 +3,16 @@
 
 ## Learning From Documentation
 **Commands used:**
-- `cmnd`  : Used to 
+- `cmnd -argument`  : Used to run the command with specific arguments 
 
 **Thought Process:**
-- Need to
+- Need to run the "challenge" program with the correct argument, so give the command the required argument using `-argument` and get the flag. I got all the information on what we need to do by reading the documentation of this challenge.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, read the documentation to understand what we need to do, input `/challenge/challenge --giveflag` to run the program with the required argument as per the documentation and get the flag.  
 
 **Flag Obtained:**
-> **
+> *pwn.college{Q5hStYegQFhFMrZvpYIb5KG3a4R.dRjM5QDLwMTN0czW}*
 
 ## Learning Complex Usage
 **Commands used:**
