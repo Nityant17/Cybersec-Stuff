@@ -84,10 +84,10 @@
 - `help cmnd`  : Used to get a list of arguments of shell builtin cmnds
 
 **Thought Process:**
-- Need to
+- Need to find the secret argument of `challenge` that will give the flag, so find it using `help cmnd` command as `challenge` is a builtin command here and run the program with the argument to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `help challenge` to find the arguments, we find that using the argument `--secret 0FOCCYi0` will give the flag, so use the command `challenge --secret 0FOCCYi0` to get the flag.  
 
 **Flag Obtained:**
 > *pwn.college{0FOCCYi0NPOjsvDeThA0zjVWCxJ.dRTM5QDLwMTN0czW}* 
