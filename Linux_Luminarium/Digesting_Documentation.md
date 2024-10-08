@@ -1,7 +1,7 @@
 # Digesting Documentation
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
-## Heading
+## Learning From Documentation
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -14,7 +14,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Learning Complex Usage
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -27,7 +27,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Reading Manuals
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -40,7 +40,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Searching Manuals
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -53,7 +53,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Searching For Manuals
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -66,7 +66,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Helpful Programs
 **Commands used:**
 - `cmnd`  : Used to 
 
@@ -79,7 +79,7 @@
 **Flag Obtained:**
 - ** 
 
-## Heading
+## Help For Builtins
 **Commands used:**
 - `cmnd`  : Used to 
 
