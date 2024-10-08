@@ -14,3 +14,81 @@
 **Flag Obtained:**
 - ** 
 
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
+## Heading
+**Commands used:**
+- `cmnd`  : Used to 
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+- ** 
+
