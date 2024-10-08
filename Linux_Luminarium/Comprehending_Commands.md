@@ -136,16 +136,16 @@
 
 ## finding files
 **Commands used:**
-- `cat`  : Used to 
+- `find`  : Used to find a specific or all files/subdirectories in a directory
 
 **Thought Process:**
-- Need to 
+- Need to find the file "flag" hidden in the file sysytem so use the command `find` to find all the "flag" files and then read all of them one by one using `cat` till we find the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `find / -name flag` to find all the files named "flag" in the "/" directory and read all the files one by one using `cat /path/to/file` till we get the flag.
 
 **Flag Obtained:**
-- ** 
+- *pwn.college{cR0p9d0YCjSobgTsnSGfW1iRvyo.dJzM4QDLwMTN0czW}* 
 
 ## linking files
 **Commands used:**
