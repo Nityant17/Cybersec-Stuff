@@ -55,16 +55,17 @@
 
 ## Mixing globs
 **Commands used:**
-- `cmnd`  : Used to  
+- `*`   : Used to shorten the file path, the shell will treat it as "wildcard" and try to replace that argument with any files that match the pattern
+- `[]`  : Used to shorten the file path, the shell will treat it as a "wildcard for some subset of potential characters", specified within the brackets  
 
 **Thought Process:**
-- Need to
+- Need to change your working directory to "/challenge/files" and run `/challenge/run` with a argument less than 6 characters that will match the files "challenging", "educational", and "pwning", so use all the globbing techniques learned till now to satisfy the condition and get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `cd /challenge/files` to change the directory to "/challenge/files", use `ls` to see all the files and we notice that there are only 1 file each starting with "c", "p" and "e" (the required ones) so use the command `/challenge/run [cpe]*` to the run the program satisfying all the conditions and get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{QZ6K3oNKH21dZ7pET6mgLx8aHKR.dVjM4QDLwMTN0czW}*
 
 ## Exclusionary globbing
 **Commands used:**
