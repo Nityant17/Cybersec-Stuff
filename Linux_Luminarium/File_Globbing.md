@@ -3,13 +3,13 @@
 
 ## Matching with *
 **Commands used:**
-- `*`  : Used to shorten the file path, it refers 
+- `*`  : Used to shorten the file path, the shell will treat it as "wildcard" and try to replace that argument with any files that match the pattern
 
 **Thought Process:**
-- Need to
+- Need to run the "run" program after entering the "/challenge" directory using `cd` but only passing less than 4 characters, so use `*`to shorten the path and get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `cd /ch*` to change the directory to "/challenge" while satisfying the conditions and then enter the command `./r*` to run the program and get the flag.
 
 **Flag Obtained:**
 > *pwn.college{MlUFtrn5HSlrrx9GLjcFydt_74b.dFjM4QDLwMTN0czW}*
