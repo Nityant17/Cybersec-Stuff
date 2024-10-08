@@ -55,16 +55,16 @@
 
 ## Searching For Manuals
 **Commands used:**
-- `cmnd`  : Used to 
+- `man`  : Used to display (if available) the manual of the command you pass as an argument
 
 **Thought Process:**
-- Need to
+-  Need to find the secret argument of `challenge` that will give the flag, so find it using `man` command and run the program with the argument to get the flag but the man page is hidden under a different name so find the correct man page using an argument with `man`, to find the arguments of `man` and what they do view the man page of `man` and use the correct argument to find the man page and thus find the secert argument of `challenge`.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `man man` to view the man page of `man` and find the argument needed, we see that `-k pattern` can be used to find all the man pages with the "pattern" in their description. We know that the secret man page will contain the string "/challenge/challenge" as it will be the man page of `challenge` command, so use `man -k /challenge/challenge` to find the correct man page. We find that the command has been renamed to `gmuphjaydw` so open its man page using `man gmuphjaydw`, here we see that if we run the program with the argument `--gmuphj 801` it will give the flag, so run the command `/challenge/challenge --gmuphj 801` to get the flag.     
 
 **Flag Obtained:**
-> ** 
+> *pwn.college{80D_1R9gUHUJV-4muLVp3NhjayL.dZTM4QDLwMTN0czW}* 
 
 ## Helpful Programs
 **Commands used:**
