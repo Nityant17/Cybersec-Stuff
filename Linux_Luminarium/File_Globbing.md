@@ -3,7 +3,7 @@
 
 ## Matching with *
 **Commands used:**
-- `cmnd`  : Used to  
+- `*`  : Used to shorten the file path, it refers 
 
 **Thought Process:**
 - Need to
@@ -12,7 +12,7 @@
 - Start the challenge, input the command   
 
 **Flag Obtained:**
-> **
+> *pwn.college{MlUFtrn5HSlrrx9GLjcFydt_74b.dFjM4QDLwMTN0czW}*
 
 ## Matching with ?
 **Commands used:**
