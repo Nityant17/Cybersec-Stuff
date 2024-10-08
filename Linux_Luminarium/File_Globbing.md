@@ -42,16 +42,16 @@
 
 ## Matching paths with []
 **Commands used:**
-- `cmnd`  : Used to  
+- `[]`  : Used to shorten the file path, the shell will treat it as a "wildcard for some subset of potential characters", specified within the brackets  
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/run` from the home directory with a single argument that bracket globs into the absolute paths to the "file_b", "file_a", "file_s, and "file_h" files in the "/challenge/files" directory.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run /challenge/files/file_[absh]` to the run the program satisfying all the conditions and get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{4N6OIBlbSePoPzszKVMB22fba6c.dRjM4QDLwMTN0czW}*
 
 ## Mixing globs
 **Commands used:**
