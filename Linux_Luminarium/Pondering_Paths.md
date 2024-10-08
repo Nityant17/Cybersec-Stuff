@@ -12,7 +12,7 @@
 - Start the challenge, input the command `/pwn` to provide the absolute path to the program "pwn" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{wTJXuNWgdAtmNcWldhERWicO1lI.dhzN5QDLwMTN0czW}* 
+>*pwn.college{wTJXuNWgdAtmNcWldhERWicO1lI.dhzN5QDLwMTN0czW}* 
 
 ## Program and absolute paths
 **Commands used:**
@@ -25,7 +25,7 @@
 - Start the challenge, input the command `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{8q0lSIhwUn4jHnAD_31630V3XBz.dVDN1QDLwMTN0czW}* 
+>*pwn.college{8q0lSIhwUn4jHnAD_31630V3XBz.dVDN1QDLwMTN0czW}* 
 
 ## Position thy self
 **Commands used:**
@@ -39,7 +39,7 @@
 - Start the challenge, use `cd path` command to go into "etc" directory, input `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{8VKb_2A6RrzhdOXbDnaJIEYiKKF.dZDN1QDLwMTN0czW}* 
+>*pwn.college{8VKb_2A6RrzhdOXbDnaJIEYiKKF.dZDN1QDLwMTN0czW}* 
 
 ## Position elsewhere
 **Commands used:**
@@ -53,7 +53,7 @@
 - Start the challenge, use `cd path` command to go into "/var/log" directory, input `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{sq5gPhcSYO1IXoVXMgbA5bk37AU.ddDN1QDLwMTN0czW}* 
+>*pwn.college{sq5gPhcSYO1IXoVXMgbA5bk37AU.ddDN1QDLwMTN0czW}* 
 
 ## Position yet elsewhere
 **Commands used:**
@@ -67,7 +67,7 @@
 - Start the challenge, use `cd path` command to go into "/usr/share/doc/fontconfig" directory, input `/challenge/run` to provide the absolute path to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{4mJoojKB4Gz206TM6miaVQ72bml.dhDN1QDLwMTN0czW}* 
+>*pwn.college{4mJoojKB4Gz206TM6miaVQ72bml.dhDN1QDLwMTN0czW}* 
 
 ## Implicit relative paths, from /
 **Commands used:**
@@ -81,7 +81,7 @@
 - Start the challenge, use `cd path` command to go into "/" directory, input `challenge/run` to provide the relative path to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{cdmWFrVZpnLI6wUe9dYAsKKgZdo.dlDN1QDLwMTN0czW}* 
+>*pwn.college{cdmWFrVZpnLI6wUe9dYAsKKgZdo.dlDN1QDLwMTN0czW}* 
 
 ## Explicit relative paths, from /
 **Commands used:**
@@ -95,7 +95,7 @@
 - Start the challenge, use `cd path` command to go into "/" directory, input `./challenge/run` to provide the relative path starting with "." to the program "run" and run the program to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{coz0ZGgYzP4ni0nXG4QNMPBUqY6.dBTN1QDLwMTN0czW}* 
+>*pwn.college{coz0ZGgYzP4ni0nXG4QNMPBUqY6.dBTN1QDLwMTN0czW}* 
 
 ## Implicit relative path
 **Commands used:**
@@ -109,7 +109,7 @@
 - Start the challenge, use `cd path` command to go into "/challenge" directory, input `./run` to run the program and get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{Idyan8aOFERShuQwk7RGvkrrmFo.dFTN1QDLwMTN0czW}* 
+>*pwn.college{Idyan8aOFERShuQwk7RGvkrrmFo.dFTN1QDLwMTN0czW}* 
 
 ## Home sweet Home
 **Commands used:**
@@ -122,4 +122,4 @@
 - Start the challenge, input `/challenge/run ~/f` to run the program and get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{o1FKZ_kQrruvJHIsAgnoa9hoE5a.dNzM4QDLwMTN0czW}* 
+>*pwn.college{o1FKZ_kQrruvJHIsAgnoa9hoE5a.dNzM4QDLwMTN0czW}* 
