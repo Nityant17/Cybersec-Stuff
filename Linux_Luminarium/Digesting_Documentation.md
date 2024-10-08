@@ -29,16 +29,16 @@
 
 ## Reading Manuals
 **Commands used:**
-- `cmnd`  : Used to 
+- `man`  : Used to display (if available) the manual of the command you pass as an argument
 
 **Thought Process:**
-- Need to
+- Need to find the secret argument of `challenge` that will give the flag, so find it using `man` command and run the program with the argument to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `man challenge` to find all the argument options for the command, we find that if we run the program `/challenge/challenge` with the argument `--batbgf 797` it will give the flag, so use the command `/challenge/challenge --batbgf 797` with the correct arguments and get the flag.  
 
 **Flag Obtained:**
-> **
+> * pwn.college{QbMXa7tbg9fQ7WqN6us4x3onlKI.dRTM4QDLwMTN0czW}*
 
 ## Searching Manuals
 **Commands used:**
