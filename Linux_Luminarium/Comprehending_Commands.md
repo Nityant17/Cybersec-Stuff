@@ -12,7 +12,7 @@
 - Start the challenge, input the command `cat flag` to read the file "flag" and get the flag. 
 
 **Flag Obtained:**
-- *pwn.college{AbnHoFH1cTooNQJfHC_ErzHMwv5.dFzN1QDLwMTN0czW}* 
+>*pwn.college{AbnHoFH1cTooNQJfHC_ErzHMwv5.dFzN1QDLwMTN0czW}* 
 
 ## catting absolute paths
 **Commands used:**
@@ -25,7 +25,7 @@
 - Start the challenge, input the command `cat /flag` to read the file "flag" specified by its absolute path and get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{0RpfeW_1ktmqLLoVtFJRvh9VZDA.dlTM5QDLwMTN0czW}* 
+>*pwn.college{0RpfeW_1ktmqLLoVtFJRvh9VZDA.dlTM5QDLwMTN0czW}* 
 
 ## more catting practice
 **Commands used:**
@@ -38,7 +38,7 @@
 - Start the challenge, input the command ` cat /usr/aarch64-linux-gnu/flag` to read the file "flag" specified by its absolute path and get the flag.     
 
 **Flag Obtained:**
-- *pwn.college{oBrZuXVh0wVu5jxaRpRcziMAOmZ.dBjM5QDLwMTN0czW}* 
+>*pwn.college{oBrZuXVh0wVu5jxaRpRcziMAOmZ.dBjM5QDLwMTN0czW}* 
 
 ## grepping for a needle in a haystack
 **Commands used:**
@@ -51,7 +51,7 @@
 - Start the challenge, input the command `grep "pwn.college" /challenge/data.txt` to get the line which conatins "pwn.college" in the file and get the flag.
 
 **Flag Obtained:**
-- *pwn.college{wQ5TQZyp-llG-pp5lTsA4U8XP6M.ddTM4QDLwMTN0czW}* 
+>*pwn.college{wQ5TQZyp-llG-pp5lTsA4U8XP6M.ddTM4QDLwMTN0czW}* 
 
 ## listing files
 **Commands used:**
@@ -64,7 +64,7 @@
 - Start the challenge, input the command `ls /challenge/` to view all the files inside "/challenge" directory and find the one to run, the file was renamed to "25245-renamed-run-19645" now run the command `/challenge/25245-renamed-run-19645` to run the program and get the flag. 
 
 **Flag Obtained:**
-- *pwn.college{ELSh0QSexQTjRsdr1FUw9r5OZhl.dhjM4QDLwMTN0czW}* 
+>*pwn.college{ELSh0QSexQTjRsdr1FUw9r5OZhl.dhjM4QDLwMTN0czW}* 
 
 ## touching files
 **Commands used:**
@@ -77,7 +77,7 @@
 - Start the challenge, input the command `touch /tmp/pwn` and `touch /tmp/college` to create the files, now run the "/run" file using `/challenge/run` to get the flag. 
 
 **Flag Obtained:**
-- *pwn.college{QXfoEI3dO67N5wDy5N_nwNm4f1T.dBzM4QDLwMTN0czW}* 
+>*pwn.college{QXfoEI3dO67N5wDy5N_nwNm4f1T.dBzM4QDLwMTN0czW}* 
 
 ## removing files
 **Commands used:**
@@ -90,7 +90,7 @@
 - Start the challenge, input the command  `rm delete_me` to delete the file, then input `/challenges/check` to run the program to confirm the deletion and get the flag.
 
 **Flag Obtained:**
-- *pwn.college{4jEYOqYwBz_ZbxlrmlgZmgW4WHT.dZTOwUDLwMTN0czW}* 
+>*pwn.college{4jEYOqYwBz_ZbxlrmlgZmgW4WHT.dZTOwUDLwMTN0czW}* 
 
 ## hidden files
 **Commands used:**
@@ -103,7 +103,7 @@
 - Start the challenge, input the command `cd /` to change to "/" directory, then input `ls -a` to find the hidden file, the file was ".flag-2990434728803", now read it by using `cat .flag-2990434728803` to get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{sXGm6tFjhLcjc0qyRf4eReUC2Rm.dBTN4QDLwMTN0czW}* 
+>*pwn.college{sXGm6tFjhLcjc0qyRf4eReUC2Rm.dBTN4QDLwMTN0czW}* 
 
 ## An Epic Filesystem Quest
 **Commands used:**
@@ -119,7 +119,7 @@
 - Start the challenge, input the command ` cd /` to change directory, then use `ls` to view all the files and find the clue file, "LEAD" was the first clue file, read it using `cat LEAD` and find out where the next clue file is and how to get to it. Just keep on following all the clues and satisfying the clue conditions using all the commands learned till now to finally get the flag.
 
 **Flag Obtained:**
-- *pwn.college{kLFQwTWkzNChF6xE4FxCjrZSXhM.dljM4QDLwMTN0czW}* 
+>*pwn.college{kLFQwTWkzNChF6xE4FxCjrZSXhM.dljM4QDLwMTN0czW}* 
 
 ## making directories
 **Commands used:**
@@ -132,7 +132,7 @@
 - Start the challenge, input the command `mkdir /tmp/pwn` to make the directory, then input `touch /tmp/pwn/college` to make the required file, and then input `/challenge/run` to run the program and get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{cXkqo9DSQAS7b_LpuXknFiS3SCA.dFzM4QDLwMTN0czW}* 
+>*pwn.college{cXkqo9DSQAS7b_LpuXknFiS3SCA.dFzM4QDLwMTN0czW}* 
 
 ## finding files
 **Commands used:**
@@ -145,7 +145,7 @@
 - Start the challenge, input the command `find / -name flag` to find all the files named "flag" in the "/" directory and read all the files one by one using `cat /path/to/file` till we get the flag.
 
 **Flag Obtained:**
-- *pwn.college{cR0p9d0YCjSobgTsnSGfW1iRvyo.dJzM4QDLwMTN0czW}* 
+>*pwn.college{cR0p9d0YCjSobgTsnSGfW1iRvyo.dJzM4QDLwMTN0czW}* 
 
 ## linking files
 **Commands used:**
@@ -158,4 +158,4 @@
 - Start the challenge, input the command `ln -s /flag /home/hacker/not-the-flag` to create the symbolic link between the two files and then run the program using `/challenge/run` to read the file and get the flag.  
 
 **Flag Obtained:**
-- *pwn.college{oGDrqV_G1gtKLoUm5EutEC_8n5U.dlTM1UDLwMTN0czW}* 
+>*pwn.college{oGDrqV_G1gtKLoUm5EutEC_8n5U.dlTM1UDLwMTN0czW}* 
