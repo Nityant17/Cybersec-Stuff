@@ -19,7 +19,7 @@
 - `?`  : Used to shorten the file path, the shell will treat it as "single character wildcard" and try to replace that argument with any files that match the pattern  
 
 **Thought Process:**
-- Need to run the "run" program after entering the "/challenge" directory using `cd` but not using "c" or "l", so use `?` to replace them with a wild character and get the flag. 
+- Need to run the "run" program after entering the "/challenge" directory using `cd` but not using "c" or "l", so use `?` to replace them with a wildcard and get the flag. 
 
 **Solution:**
 - Start the challenge, input the command `cd /?ha??enge` to change the directory to "/challenge" while satisfying the conditions and then enter the command `./run` to run the program and get the flag.   
@@ -32,13 +32,13 @@
 - `[]`  : Used to shorten the file path, the shell will treat it as a "wildcard for some subset of potential characters", specified within the brackets  
 
 **Thought Process:**
-- Need to
+- Need to change your working directory to "/challenge/files" and run `/challenge/run` with a single argument that bracket globs into "file_b", "file_a", "file_s", and "file_h" so use `[]` to create the set of wildcards and satisfy the condition to get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `cd /challenge/files` to change the directory to "challenge/files" and then use the command `/challenge/run file_[absh]` to the run the program satisfying all the conditions and get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{kRXXvhHS4_iitjLUmWWXE0uo_YD.dNjM4QDLwMTN0czW}*
 
 ## Matching paths with []
 **Commands used:**
