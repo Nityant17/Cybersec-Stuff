@@ -68,7 +68,7 @@
 
 ## Grepping stored results
 **Commands used:**
-- `cmnd`  : Used to  
+- `>`  : Used to redirect stdout to files   
 
 **Thought Process:**
 - Need to
