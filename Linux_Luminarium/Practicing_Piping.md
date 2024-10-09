@@ -121,16 +121,16 @@
 
 ## Writing to multiple programs
 **Commands used:**
-- `cmnd`  : Used to  
+- `>()`  : Used to create a temporary file that can be read   
 
 **Thought Process:**
-- Need to
+- Need to pipe the output from `/challenge/hack` to 2 commands `/challenge/the` and `/challenge/planet`, we do this by using `>()` and thus get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/hack | tee >(/challenge/the) | /challenge/planet`   
 
 **Flag Obtained:**
-> **
+> *pwn.college{wT8scWh6SaYNxpnqXJQ2P0s71p7.dBDO0UDLwMTN0czW}*
 
 ## Split-piping stderr and stdout
 **Commands used:**
