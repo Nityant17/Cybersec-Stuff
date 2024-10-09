@@ -13,4 +13,7 @@
 
 ## All that for a drop of blood
 ### Description:
-- As the terminal roars back to life, a single message blinks on the screen: "START GAME." You're no longer just a playerâ€”you're in the endgame now. The keyboard before you looks deceptively simple, but nothing you try gets past the loading screen. Something is clearly wrong. Can you uncover the hidden flaw and push beyond this stagnant start? [https://startgame.oasis.cryptonite.live/]
+- As the terminal roars back to life, a single message blinks on the screen: "START GAME." You're no longer just a playerâ€”you're in the endgame now. The keyboard before you looks deceptively simple, but nothing you try gets past the loading screen. Something is clearly wrong. Can you uncover the hidden flaw and push beyond this stagnant start? [Game][(https://startgame.oasis.cryptonite.live/)
+
+### Solution:
+- 
