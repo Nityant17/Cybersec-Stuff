@@ -17,7 +17,9 @@ As the terminal roars back to life, a single message blinks on the screen: "STAR
 
 ### Solution: 
 When you open the site and click on start game it shows that user needs to be an "OASISPlayer" to play the game so we need to send a "POST" request on "/game" endpoint, we do that using the `curl` command, input `curl -X POST   'https://startgame.oasis.cryptonite.live/game'   -H 'Content-Type: application/json'   -H 'User-Agent: OASISPlayer'   -d '{"errorMessage": "Give me a message"}'`. 
+
 We get the output `{"errorMessage":"Can you give me the name of the Student Project organizing this event as a url parameter 'name'?"}` so we add the parameter and run the command ` curl -X POST   'https://startgame.oasis.cryptonite.live/game?name=cryptonite'   -H 'Content-Type: application/json'   -H 'User-Agent: OASISPlayer'   -d '{"errorMessage": "Give me a message"}'` and we get the output `{"errorMessage":"Do you know you can chain query parameters? Add a 'rank' parameter and give the current CTFTime rank of the project on /givemetheFlag"}`.
+
 So we add the "rank" parameter with the "name" paramenter and change the endpoint to "/givemetheFlag" and send the request again using command ` curl -X POST   'https://startgame.oasis.cryptonite.live/givemetheFlag?name=cryptonite&rank=4'   -H 'Content-Type: application/json'   -H 'User-Agent: OASISPlayer'   -d '{"errorMessage": "Give me a message"}'` and finally we get the flag.
 Flag:
 > *OASIS{G37_d035_n07_4lw4y5_G37_th1ng5}*
