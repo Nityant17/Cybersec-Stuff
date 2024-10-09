@@ -29,16 +29,16 @@
 
 ## Appending output
 **Commands used:**
-- `cmnd`  : Used to  
+- `>>`  : Used to append stdout to files    
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/run` with an append-mode redirect of the output to the file "/home/hacker/the-flag" so as to not the delete the first half of the flag already in the file, so append using `>>`. 
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run >> /home/hacker/the-flag` to append the second half of the flag to the file and then use `cat the-flag` to read the file and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{c5BfynR2lDQStbGAJngqrv-_qMu.ddDM5QDLwMTN0czW}*
 
 ## Redirecting errors
 **Commands used:**
