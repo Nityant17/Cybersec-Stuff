@@ -127,7 +127,7 @@
 - Need to pipe the output from `/challenge/hack` to 2 commands `/challenge/the` and `/challenge/planet`, we do this by using `>()` and thus get the flag.
 
 **Solution:**
-- Start the challenge, input the command `/challenge/hack | tee >(/challenge/the) | /challenge/planet`   
+- Start the challenge, input the command `/challenge/hack | tee >(/challenge/the) | /challenge/planet` to pipe the command and thus get the flag.  
 
 **Flag Obtained:**
 > *pwn.college{wT8scWh6SaYNxpnqXJQ2P0s71p7.dBDO0UDLwMTN0czW}*
