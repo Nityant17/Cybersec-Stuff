@@ -8,7 +8,8 @@
 
 ### Solution:
 - When you first load up the site you see you can change the user by clicking the arrow buttons in the centre and we notice that affects the "userid=number" in the url. Since the parameters of the url are visible it is more prone to SQL injection attacks, so i tried changing the value of the parameter to something else to check that, I put in the value as "6" and behold the flag appeared.
-- flag > *OASIS{T00_m4ny_h0urs_4nd_wh3r3_d1d_1t_l34d}*
+- Flag:
+> *OASIS{T00_m4ny_h0urs_4nd_wh3r3_d1d_1t_l34d}*
 
 ## All that for a drop of blood
 ### Description:
