@@ -3,16 +3,16 @@
 
 ## Redirecting output
 **Commands used:**
-- `cmnd`  : Used to  
+- `>`  : Used to redirect stdout to files  
 
 **Thought Process:**
-- Need to
+- Need to use input redirection to write the word "PWN" to the file "COLLEGE" to get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `echo PWN > COLLEGE` to write "PWN" in "COLLEGE" and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{ES30SirLJDsTwr8uGZX58hU2iiE.dRjN1QDLwMTN0czW}*
 
 ## Redirecting more output
 **Commands used:**
