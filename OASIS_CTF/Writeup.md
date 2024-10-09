@@ -37,7 +37,18 @@ So we need to reverse the encryption process and write a decryption code and als
 
 To write the decryption code we observe the code and find out that the method of encryption is basically that the diagonal elements are of the form "k-x" where "k" are the "keys" generted for each character in the message and "x" is ASCII value of that character, this is because `-x % k = k - x` since keys are really big prime numbers so we just need to subtract the diagonals from the keys to get the required ASCII values and thus get the flag. This also means that there is a different key for each row i.e 36 keys.
 
-To get the keys 
+To get the keys we can use this code
+
+    with open('out.txt', 'r') as f:
+        encrypted_message = eval(f.read())
+    x=36
+    c=[]
+    for i in range(1,x*x+1,x):
+        c.append([((-1)*j) for j in range(i,i+x)])
+    for i in range(x-1):
+        print(encrypted_message[i][i+1]-c[i][i+1])
+    print(encrypted_message[30][29]-c[30][29])
+
 
 and thus the final code is
     
