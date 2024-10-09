@@ -134,13 +134,15 @@
 
 ## Split-piping stderr and stdout
 **Commands used:**
-- `cmnd`  : Used to  
+- `2>`   : Used to redirect stderr to files
+- `|`    : Used to redirect the standard output from the command to the left of the pipe to standard input of the command to the right of the pipe
+- `>()`  : Used to create a temporary file that can be read   
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/hack` this produces data on stdout and stderr, we need to provide stderr to `/challenge/the` and the stdout to `/challenge/planet` to get the flag, we do this by combining all our previous knowledge.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/hack 2> >(/challenge/the) | /challenge/planet` to satisfy the conditions and thus get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{IT_yZ4RuBx4g9YY2boSWPRqXbmL.dFDNwYDLwMTN0czW}*
