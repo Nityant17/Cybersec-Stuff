@@ -8,6 +8,7 @@ It hits you! The IOI uses an encrypted communication service to control the viru
 
 ### Solution:
 When you first load up the site you see you can change the user by clicking the arrow buttons in the centre and we notice that affects the "userid=number" in the url. Since the parameters of the url are visible it is more prone to SQL injection attacks, so i tried changing the value of the parameter to something else to check that, I put in the value as "6" and behold the flag appeared.
+
 Flag:
 > *OASIS{T00_m4ny_h0urs_4nd_wh3r3_d1d_1t_l34d}*
 
@@ -21,5 +22,6 @@ When you open the site and click on start game it shows that user needs to be an
 We get the output `{"errorMessage":"Can you give me the name of the Student Project organizing this event as a url parameter 'name'?"}` so we add the parameter and run the command ` curl -X POST   'https://startgame.oasis.cryptonite.live/game?name=cryptonite'   -H 'Content-Type: application/json'   -H 'User-Agent: OASISPlayer'   -d '{"errorMessage": "Give me a message"}'` and we get the output `{"errorMessage":"Do you know you can chain query parameters? Add a 'rank' parameter and give the current CTFTime rank of the project on /givemetheFlag"}`.
 
 So we add the "rank" parameter with the "name" paramenter and change the endpoint to "/givemetheFlag" and send the request again using command ` curl -X POST   'https://startgame.oasis.cryptonite.live/givemetheFlag?name=cryptonite&rank=4'   -H 'Content-Type: application/json'   -H 'User-Agent: OASISPlayer'   -d '{"errorMessage": "Give me a message"}'` and finally we get the flag.
+
 Flag:
 > *OASIS{G37_d035_n07_4lw4y5_G37_th1ng5}*
