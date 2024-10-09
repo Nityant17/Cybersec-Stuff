@@ -31,3 +31,36 @@ Flag:
 Amid the chaos, you spot something crucial: a control unit embedded in the mechanoids'' chassis. With a well-timed leap, you manage to access one of the units. A complex matrix of data awaits you inside, but if you can decipher it, you could seize control of the entire robotic army. Can you crack the code and turn the tables on IOI? [File](https://drive.proton.me/urls/Z5715WJ2ZG#bubCkAYX6dlt)
 
 ### Solution:
+On seeing the documents we can understand that the code was used to encrypt the flag into a matrix of large numbers using some keys(large prime numbers).
+
+So we need to reverse the encryption process and write a decryption code and also find out the keys used.
+
+To find the keys 
+
+and thus this final code is
+> from Crypto.Util.number import *
+
+def decrypt(encrypted_message: list, keys: list) -> str:
+    x = len(encrypted_message)
+    decrypted = ""
+    
+    for i in range(x):
+        for j in range(x):
+            if i == j:
+                # Decrypt the character at the diagonal
+                decrypted_char = ((-1) * encrypted_message[i][j]) % keys[i]
+                decrypted += chr(decrypted_char)
+                break
+    
+    return decrypted
+
+# Read the encrypted message from the file
+with open('out.txt', 'r') as f:
+    encrypted_message = eval(f.read())
+
+# You need to have the original keys used for encryption
+keys = [579885124647369526157,476077290652714481873,349943003460314109673,525980091084766170491,438164697397128800629,525087896998708389373,485477731670335812503,435728240280813893887,540666002313690811639,584965747131027925409,439995449013303863551,418141579310939510821,460500404167421032201,361556514652689146477,328888527471701164673,479028008949338113297,445487775312973405009,342026121502245842533,503053158682598183707,387978067123272290321,476698436131566910073,413722495962750763163,493139132341670264171,573184381341628864837,372704451028203611159,539316115628053601867,434763088223071781417,466544168040450596147,459326708158581511673,589126675193834764871,531939900319278497203,329321060511978774469,384206381694376191809,455485400065236333571,465796268935821234409,365764966504311976627]  # Insert the original keys here
+
+decrypted_message = decrypt(encrypted_message, keys)
+print("Decrypted message:", decrypted_message)
+
