@@ -9,3 +9,7 @@
 ### Solution:
 - When you first load up the site you see you can change the user by clicking the arrow buttons in the centre and we notice that affects the "userid=number" in the url. Since the parameters of the url are visible it is more prone to SQL injection attacks, so i tried changing the value of the parameter to something else to check that, I put in the value as "6" and behold the flag appeared.
 - flag > *OASIS{T00_m4ny_h0urs_4nd_wh3r3_d1d_1t_l34d}*
+
+## All that for a drop of blood
+### Description:
+- As the terminal roars back to life, a single message blinks on the screen: "START GAME." You're no longer just a playerâ€”you're in the endgame now. The keyboard before you looks deceptively simple, but nothing you try gets past the loading screen. Something is clearly wrong. Can you uncover the hidden flaw and push beyond this stagnant start? [https://startgame.oasis.cryptonite.live/]
