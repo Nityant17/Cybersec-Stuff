@@ -82,16 +82,16 @@
 
 ## Grepping live output
 **Commands used:**
-- `cmnd`  : Used to  
+- `|`  : Used to redirect the standard output from the command to the left of the pipe to standard input of the command to the right of the pipe 
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/run` and `grep` the output to find the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run | grep "pwn.college"` to run the program and find the flag in the output.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{cuzKk7V2X_y5I9rpt2UI_gxjmsN.dlTM4QDLwMTN0czW}*
 
 ## Grepping errors
 **Commands used:**
