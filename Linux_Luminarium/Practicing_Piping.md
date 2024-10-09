@@ -95,16 +95,16 @@
 
 ## Grepping errors
 **Commands used:**
-- `cmnd`  : Used to  
+- `>&`  : Used to redirect a file descriptor to another file descriptor
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/run` and `grep` the output to find the flag, but will have to redirect the stderr to stdout to be able to pass it in the `|` command so use `>&` to covert it and run the program to get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run 2>&1 | grep "pwn.college"` to run the program, convert stderr to stdout and find the flag in the output.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{ECwTUas9MJ6HpuzcJp4cYYHHtla.dVDM5QDLwMTN0czW}*
 
 ## Duplicating piped data with tee
 **Commands used:**
