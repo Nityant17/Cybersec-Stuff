@@ -63,3 +63,7 @@ and thus this final code is
     decrypted_message = decrypt(encrypted_message, keys)
     print("Decrypted message:", decrypted_message)
 
+On running this code we get the flag.
+
+Flag:
+> *OASIS{Bro_Really_Modded_It_Negative}*
