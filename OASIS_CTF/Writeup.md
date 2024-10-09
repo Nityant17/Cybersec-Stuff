@@ -25,3 +25,9 @@ So we add the "rank" parameter with the "name" paramenter and change the endpoin
 
 Flag:
 > *OASIS{G37_d035_n07_4lw4y5_G37_th1ng5}*
+
+## Keanu crack the matrix
+### Description:
+Amid the chaos, you spot something crucial: a control unit embedded in the mechanoids'' chassis. With a well-timed leap, you manage to access one of the units. A complex matrix of data awaits you inside, but if you can decipher it, you could seize control of the entire robotic army. Can you crack the code and turn the tables on IOI? [File](https://drive.proton.me/urls/Z5715WJ2ZG#bubCkAYX6dlt)
+
+### Solution:
