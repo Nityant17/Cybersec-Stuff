@@ -48,23 +48,23 @@
 - Need to  redirect the output of `/challenge/run` to "myflag" and the "errors" to file "instructions", so use input redirection to do this and get the flag.
 
 **Solution:**
-- Start the challenge, input the command `/challenge/run > myflag 2> instructions` to input the output i.e the flag to "myflag" and the error to "instructions", and then use `cat myflag` to read the file and get the flag.
+- Start the challenge, input the command `/challenge/run > myflag 2> instructions` to redirect the output i.e the flag to "myflag" and the error to "instructions", and then use `cat myflag` to read the file and get the flag.
 
 **Flag Obtained:**
 > *pwn.college{cEUjN8hlXUI5JZR7trSvIPMMxTQ.ddjN1QDLwMTN0czW}*
 
 ## Redirecting input
 **Commands used:**
-- `cmnd`  : Used to  
+- `<`  : Used to redirect stdin to files
 
 **Thought Process:**
-- Need to
+- Need to redirect the "PWN" file to `/challenge/run` and have the "PWN" file contain the value "COLLEGE", so use input redirection to do this and get the flag.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `echo COLLEGE > PWN` to write the value in "PWN" and then use the command `/challenge/run < PWN` to redirect the "PWN" file to `/challenge/run` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{g5EeKwtVoXVCQ3pEwVywgGAYTTD.dBzN1QDLwMTN0czW}*
 
 ## Grepping stored results
 **Commands used:**
