@@ -35,9 +35,11 @@ On seeing the documents we can understand that the code was used to encrypt the 
 
 So we need to reverse the encryption process and write a decryption code and also find out the keys used.
 
-To find the keys 
+To write the decryption code we observe the code and find out that the method of encryption is basically that the diagonal elements are of the form "k-x" where "k" are the "keys" generted for each character in the message and "x" is ASCII value of that character, this is because `-x % k = k - x` since keys are really big prime numbers so we just need to subtract the diagonals from the keys to get the required ASCII values and thus get the flag. This also means that there is a different key for each row i.e 36 keys.
 
-and thus this final code is
+To get the keys 
+
+and thus the final code is
     
     from Crypto.Util.number import *
 
