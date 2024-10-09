@@ -108,16 +108,16 @@
 
 ## Duplicating piped data with tee
 **Commands used:**
-- `cmnd`  : Used to  
+- `tee`  : Used to duplicate data flowing through your pipes to any number of files provided on the command line 
 
 **Thought Process:**
-- Need to
+- Need to pipe `/challenge/pwn` into `/challenge/college` but doing it directly doesnt work, so we need to check the stdout by `/challenge/pwn` to find out whats the error so that we can fix it and get the flag, we can do this using the `tee` command.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/pwn | tee output | /challenge/college` to intercept the command, input `cat output` to see what the stdout is and figure out how to fix this, we find that if we use the argument `--secret I4nN9pKa` it will give the flag so we run the command `/challenge/pwn --secret I4nN9pKa | /challenge/college` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{I4nN9pKaMAbLIwpdzk-I5rfL8u0.dFjM5QDLwMTN0czW}*
 
 ## Writing to multiple programs
 **Commands used:**
