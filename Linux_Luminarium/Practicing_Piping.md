@@ -16,16 +16,16 @@
 
 ## Redirecting more output
 **Commands used:**
-- `cmnd`  : Used to  
+- `>`  : Used to redirect stdout to files   
 
 **Thought Process:**
-- Need to
+- Need to redirect the output of `/challenge/run` to a file "myflag" to get the flag so use input redirection.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run > myflag` to write the output of the command to "myflag" and then read the file using `cat myflag` to get the flag.  
 
 **Flag Obtained:**
-> **
+> *pwn.college{8O1toUWK4NQSMmkRHNoRTM2lE-9.dVjN1QDLwMTN0czW}*
 
 ## Appending output
 **Commands used:**
