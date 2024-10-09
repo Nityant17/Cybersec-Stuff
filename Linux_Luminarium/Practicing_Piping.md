@@ -68,16 +68,17 @@
 
 ## Grepping stored results
 **Commands used:**
-- `>`  : Used to redirect stdout to files   
+- `>`     : Used to redirect stdout to files
+- `grep`  : Used to search for a particular string in files  
 
 **Thought Process:**
-- Need to
+- Need to redirect the output of `/challenge/run` to "/tmp/data.txt", do that using input redirection and find the flag in the file using `grep`.
 
 **Solution:**
-- Start the challenge, input the command   
+- Start the challenge, input the command `/challenge/run  > /tmp/data.txt` to redirect the output to the required file and then use the command `grep "pwn.college" /tmp/data.txt` to find the flag in the file.  
 
 **Flag Obtained:**
-> **
+> *pwn.college{wJ2idMfkYXFcoqgRMF5rbWImPDw.dhTM4QDLwMTN0czW}*
 
 ## Grepping live output
 **Commands used:**
