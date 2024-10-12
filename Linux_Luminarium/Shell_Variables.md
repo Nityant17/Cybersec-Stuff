@@ -3,16 +3,16 @@
 
 ## Printing Variables
 **Commands used:**
-- `>`  : Used to 
+- `$variable`  : Used to access the variable 
 
 **Thought Process:**
-- Need to 
+- Need to read the variable "FLAG" to obtain the flag, so we read it by using `echo` and accessing it using `$`.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `echo $FLAG` to read the variable "FLAG" and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{cEuwFi_Q6ASDh_pSA4a8TiMrNrU.ddTN1QDLwMTN0czW}*
 
 ## Setting Variables
 **Commands used:**
