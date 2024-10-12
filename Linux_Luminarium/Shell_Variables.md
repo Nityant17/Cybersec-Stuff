@@ -16,16 +16,16 @@
 
 ## Setting Variables
 **Commands used:**
-- `>`  : Used to 
+- `variable_name=variable_value`  : Used to define a variable
 
 **Thought Process:**
-- Need to 
+- Need to define a variable "PWN" and assign it the value "COLLEGE" to get the flag.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `PWN=COLLEGE` to define the variable and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{8Q_0i_lvyPSjc4Iqx6IC-RdxaFX.dlTN1QDLwMTN0czW}*
 
 ## Multi-word Variables
 **Commands used:**
