@@ -42,16 +42,16 @@
 
 ## Exporting Variables
 **Commands used:**
-- `>`  : Used to 
+- `export variable_name`  : Used to export variables
 
 **Thought Process:**
-- Need to 
+- Need to invoke `/challenge/run` with the "PWN" variable exported and set to the value "COLLEGE" and the "COLLEGE" variable set to the value "PWN" but not exported, so we create both the variables using `=` and export the "PWN" variable using `export` and then run the command to get the flag.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `COLLEGE=PWN` to define the first variable and use the command `export PWN=COLLEGE` to define the second variable and export it, then run the porgram using `/challenge/run` to get the flag since all conditions ar ssatisfied.
 
 **Flag Obtained:**
-> **
+> *pwn.college{IMVVVX-AewdZE5GoUzDkNIFbRl4.dJjN1QDLwMTN0czW}*
 
 ## Printing Exported Variables
 **Commands used:**
