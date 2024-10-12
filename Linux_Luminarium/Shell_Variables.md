@@ -19,7 +19,7 @@
 - `variable_name=variable_value`  : Used to define a variable
 
 **Thought Process:**
-- Need to define a variable "PWN" and assign it the value "COLLEGE" to get the flag.
+- Need to define a variable "PWN" and assign it the value "COLLEGE" to get the flag, so we do that by using `=`.
 
 **Solution:**
 - Start the challenge, input the command `PWN=COLLEGE` to define the variable and get the flag.
@@ -32,7 +32,7 @@
 - `variable_name="variable value"`  : Used to define a variable with multiple words 
 
 **Thought Process:**
-- Need to define a variable "PWN" and assign it the value "COLLEGE YEAH" to get the flag. 
+- Need to define a variable "PWN" and assign it the value "COLLEGE YEAH" to get the flag, so we do that by using `=` and `" "` because `" "` allows multiple character inputs. 
 
 **Solution:**
 - Start the challenge, input the command `PWN="COLLEGE YEAH"` to define the variable and get the flag.
