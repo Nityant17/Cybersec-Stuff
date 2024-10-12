@@ -48,23 +48,23 @@
 - Need to invoke `/challenge/run` with the "PWN" variable exported and set to the value "COLLEGE" and the "COLLEGE" variable set to the value "PWN" but not exported, so we create both the variables using `=` and export the "PWN" variable using `export` and then run the command to get the flag.
 
 **Solution:**
-- Start the challenge, input the command `COLLEGE=PWN` to define the first variable and use the command `export PWN=COLLEGE` to define the second variable and export it, then run the porgram using `/challenge/run` to get the flag since all conditions ar ssatisfied.
+- Start the challenge, input the command `COLLEGE=PWN` to define the first variable and use the command `export PWN=COLLEGE` to define the second variable and export it, then run the porgram using `/challenge/run` to get the flag since all conditions are satisfied.
 
 **Flag Obtained:**
 > *pwn.college{IMVVVX-AewdZE5GoUzDkNIFbRl4.dJjN1QDLwMTN0czW}*
 
 ## Printing Exported Variables
 **Commands used:**
-- `>`  : Used to 
+- `env`  : Used to print out every exported variable set in your shell 
 
 **Thought Process:**
-- Need to 
+- Need to use `env` command to print out all the exported variables and search through them to find the "FLAG" variable to get the flag.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `env` to print all exported variables, on looking through them we find the "FLAG" variable which contains the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{c2nsHqG__1h0x98wAS2D97lZGRu.dhTN1QDLwMTN0czW}*
 
 ## Storing Command Output
 **Commands used:**
