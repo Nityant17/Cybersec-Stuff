@@ -94,13 +94,13 @@
 
 ## Reading Files
 **Commands used:**
-- `>`  : Used to 
+- `read variable_name < file`  : Used to read a file into the variable
 
 **Thought Process:**
-- Need to 
+- Need to to read `/challenge/read_me` into the "PWN" variable to get the flag, so we do this by using `read var_name < file` here `<` directs the "file" as the standard input to `read` which then reads it into the variable. 
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `read PWN < /challenge/read_me` to direct the file `/challenge/read_me` as stdin to `read` which reads it to "PWN" and thus satisfy all the conditions and get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{MOelQf4uHvLbHNzoS1gBZI5V-ba.dBjM4QDLwMTN0czW}*
