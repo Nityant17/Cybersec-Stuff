@@ -68,16 +68,16 @@
 
 ## Storing Command Output
 **Commands used:**
-- `>`  : Used to 
+- `$()`  : Used to store the output of a command into a variable
 
 **Thought Process:**
-- Need to 
+- Need to read the output of the `/challenge/run` command directly into a variable called "PWN" to get the flag, so we do that using `$()` (command substitution).
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `PWN=$(/challenge/run)` to read the output of `/challenge/run` (the flag) into "PWN", then use the command `echo $PWN` to print the variable and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{wPYQ8aoFR0YBNaHpGpLuRK9_I17.dVzN0UDLwMTN0czW}*
 
 ## Reading Input
 **Commands used:**
