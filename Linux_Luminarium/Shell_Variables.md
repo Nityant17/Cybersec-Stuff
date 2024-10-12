@@ -29,16 +29,16 @@
 
 ## Multi-word Variables
 **Commands used:**
-- `>`  : Used to 
+- `variable_name="variable value"`  : Used to define a variable with multiple words 
 
 **Thought Process:**
-- Need to 
+- Need to define a variable "PWN" and assign it the value "COLLEGE YEAH" to get the flag. 
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `PWN="COLLEGE YEAH"` to define the variable and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{Y-Sdqzq67oHTEjdJ2-QTcQ40i13.dBjN1QDLwMTN0czW}*
 
 ## Exporting Variables
 **Commands used:**
