@@ -87,7 +87,7 @@
 - Need to set the "PWN" variable to the value "COLLEGE" we do this using `read` to get the flag.
 
 **Solution:**
-- Start the challenge, input the command `read PWN` to read input, as input write "COLLEGE" to satisfy the conditions and get the flag.
+- Start the challenge, input the command `read PWN` to read input to the "PWN" variable, as input write "COLLEGE" to satisfy the conditions and get the flag.
 
 **Flag Obtained:**
 > *pwn.college{g18PKSh3J5CpzGg2TdFYEQ7KkcI.dhzN1QDLwMTN0czW}*
