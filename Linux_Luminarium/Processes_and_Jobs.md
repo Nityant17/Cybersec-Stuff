@@ -9,7 +9,7 @@
 - Need to find the correct program to run, but since it is already running we can find it by using `ps` command and run the correct program to get the flag. `ps` command alone doesnt show any usefull processes so we pair it with the arguments `-ef` or `-aux` to get more information from it.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `ps -aux` to view all the programs running and find the one needed, we observe that the renamed program is `/challenge/15572-run-9513`, so run the program to get the flag.
 
 **Flag Obtained:**
 > *pwn.college{cK1G3oZjDqQrvW_V0C_xPNIHwmE.dhzM4QDLwMTN0czW}*
