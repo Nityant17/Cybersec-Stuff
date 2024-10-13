@@ -1,16 +1,119 @@
 # Processes and Jobs
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
-## Redirecting output
+## Listing Processes
 **Commands used:**
-- `>`  : Used to redirect stdout to files  
+- `>`  : Used to   
 
 **Thought Process:**
-- Need to use input redirection to write the word "PWN" to the file "COLLEGE" to get the flag.
+- Need to
 
 **Solution:**
-- Start the challenge, input the command `echo PWN > COLLEGE` to write "PWN" in "COLLEGE" and get the flag.
+- Start the challenge, input the command
 
 **Flag Obtained:**
-> *pwn.college{ES30SirLJDsTwr8uGZX58hU2iiE.dRjN1QDLwMTN0czW}*
+> **
 
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
+
+## Listing Processes
+**Commands used:**
+- `>`  : Used to   
+
+**Thought Process:**
+- Need to
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
