@@ -29,16 +29,16 @@
 
 ## Interrupting Processes
 **Commands used:**
-- `>`  : Used to   
+- `Ctrl + c`  : Used to interrupt whatever application is waiting on input from the terminal thus causing the application to cleanly exit  
 
 **Thought Process:**
-- Need to
+- Need to interrupt `/challenge/run` to get the flag, so we do that by pressing `Ctrl + c` and get the flag.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, run the program `/challenge/run`, now to interrupt it press `Ctrl + c` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{YMSckx4YVB2dMb9FiyKdMwS1ME6.dNDN4QDLwMTN0czW}*
 
 ## Suspending Processes
 **Commands used:**
