@@ -55,7 +55,7 @@
 
 ## Resuming Processes
 **Commands used:**
-- `fg`  : Used to resume a suspended process in the foreground
+- `fg`  : Used to resume a suspended or backgrounded process in the foreground
 
 **Thought Process:**
 - Need to suspend and resume `/challenge/run` to get the flag, we do that by using `Ctrl + z` and `fg`.
@@ -81,16 +81,16 @@
 
 ## Foregrounding Processes
 **Commands used:**
-- `>`  : Used to   
+- `fg`  : Used to resume a suspended or backgrounded process in the foreground  
 
 **Thought Process:**
-- Need to
+- Need to run `/challenge/run` in the background and then bring it to the foreground, we do this by running the program then suspending it and running it in the background using `bg` then bringing it to the foreground using `fg`.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to run the program, then press `Ctrl + z` to suspend it, enter `bg` to run the suspended program in the background and then enter `fg` to bring the program to the foreground thus satisfying all the conditions and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{A4JBTvOSHNy7grDAl5LQXkTY9Kq.dhDN4QDLwMTN0czW}*
 
 ## Starting Backgrounded Processes
 **Commands used:**
