@@ -16,16 +16,16 @@
 
 ## Killing Processes
 **Commands used:**
-- `>`  : Used to   
+- `kill PID`  : Used to terminate a process with the specified PID   
 
 **Thought Process:**
-- Need to
+- Need to terminate the `/challenge/dont_run` process so that `/challenge/run` can run, so we do that by first finding the PID of `/challenge/dont_run` so that we can terminate it using the `kill` command and thus get the flag. 
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `ps -aux` to view all the running processes and find the PID of `/challenge/dont_run`, we find that its PID is "73" so we now terminate it using the command `kill 73`, now we can run `/challenge/run` and get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{cHfrD9udJY_wvwVX0R_GwolZex8.dJDN4QDLwMTN0czW}*
 
 ## Interrupting Processes
 **Commands used:**
