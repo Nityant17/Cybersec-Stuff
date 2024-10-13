@@ -94,16 +94,16 @@
 
 ## Starting Backgrounded Processes
 **Commands used:**
-- `>`  : Used to   
+- `cmnd &`  : Used to directly run the process in the background  
 
 **Thought Process:**
-- Need to
+- Need to launch `/challenge/run` backgrounded for the flag so we background it by appending a `&` to it.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run &` to directly run the program backgrounded and thus get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{Qq1sNxlEHrFvUUnFnLGc0E_T7Sf.dlDN4QDLwMTN0czW}*
 
 ## Process Exit Codes
 **Commands used:**
