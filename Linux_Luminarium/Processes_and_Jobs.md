@@ -42,16 +42,16 @@
 
 ## Suspending Processes
 **Commands used:**
-- `>`  : Used to   
+- `Ctrl + z`  : Used to suspend processes to the background   
 
 **Thought Process:**
-- Need to
+- Need to have 2 `/challenge/run` running at the same time to get the flag, we do this by running one program then suspending it to the background using `Ctrl + z` and then running it again thus having 2 of them running at the same time and get the flag.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to run the program then press `Ctrl + z` to suspend it and then the run the program again using `/challenge/run` thus getting the flag since we have 2 of them running at the same time.
 
 **Flag Obtained:**
-> **
+> *pwn.college{oWw4qpSKH_MLTQ5V8yYQxZ4w9d2.dVDN4QDLwMTN0czW}*
 
 ## Resuming Processes
 **Commands used:**
