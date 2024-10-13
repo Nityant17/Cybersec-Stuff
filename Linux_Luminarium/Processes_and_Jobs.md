@@ -3,16 +3,16 @@
 
 ## Listing Processes
 **Commands used:**
-- `>`  : Used to   
+- `ps`  : Used to list the processes running in your terminal   
 
 **Thought Process:**
-- Need to
+- Need to find the correct program to run, but since it is already running we can find it by using `ps` command and run the correct program to get the flag. `ps` command alone doesnt show any usefull processes so we pair it with the arguments `-ef` or `-aux` to get more information from it.
 
 **Solution:**
 - Start the challenge, input the command
 
 **Flag Obtained:**
-> **
+> *pwn.college{cK1G3oZjDqQrvW_V0C_xPNIHwmE.dhzM4QDLwMTN0czW}*
 
 ## Killing Processes
 **Commands used:**
