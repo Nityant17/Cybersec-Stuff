@@ -107,13 +107,13 @@
 
 ## Process Exit Codes
 **Commands used:**
-- `>`  : Used to   
+- `?`  : Used to access the exit code of the most recently-terminated command, its a variable so needs to be used with `$` to access it   
 
 **Thought Process:**
-- Need to
+- Need to retrieve the exit code returned by `/challenge/get-code` and then run `/challenge/submit-code` with that error code as an argument so we find the exit code by first execcuting the program then reading its exit code variable `?` using `echo` and then putting it as the argumment and thus getting the flag.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/get-code` to run the program then to find its exit code use `echo $?` to print the exit code which we found out is "211" then we run the program with the required argument using `/challenge/submit-code 211` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{QhYV0xryoPmzW-GLgGcecChZxAW.dljN4UDLwMTN0czW}*
