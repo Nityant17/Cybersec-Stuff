@@ -55,7 +55,7 @@
 
 ## Resuming Processes
 **Commands used:**
-- `fg`  : Used to resume a suspended process i.e bring it to the foreground  
+- `fg`  : Used to resume a suspended process in the foreground
 
 **Thought Process:**
 - Need to suspend and resume `/challenge/run` to get the flag, we do that by using `Ctrl + z` and `fg`.
@@ -68,16 +68,16 @@
 
 ## Backgrounding Processes
 **Commands used:**
-- `>`  : Used to   
+- `bg`  : Used to resume a suspended process in the background   
 
 **Thought Process:**
-- Need to
+- Need to have 2 `/challenge/run` running not suspended, and using the same terminal to get the flag, we do this by launching the program, then suspending it, then resuming it in the background using `bg` and launching another copy while the first is running in the background.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to run the program then press `Ctrl + z` to suspend it, then enter `bg` to resume the process in the background, now rerun the program in the foreground using `/challenge/run` thus having 2 of them running and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{wP8t-7gwfoauqIGHl-H7-JZyRjI.ddDN4QDLwMTN0czW}*
 
 ## Foregrounding Processes
 **Commands used:**
