@@ -55,16 +55,16 @@
 
 ## Resuming Processes
 **Commands used:**
-- `>`  : Used to   
+- `fg`  : Used to resume a suspended process i.e bring it to the foreground  
 
 **Thought Process:**
-- Need to
+- Need to suspend and resume `/challenge/run` to get the flag, we do that by using `Ctrl + z` and `fg`.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to run the program then suspend it by pressing `Ctrl + z` and then resume it again by using command `fg` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{cIq5JAWDSPPOVX9GN9SgWSJ4d7c.dZDN4QDLwMTN0czW}*
 
 ## Backgrounding Processes
 **Commands used:**
