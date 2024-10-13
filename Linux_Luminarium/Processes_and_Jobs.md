@@ -14,7 +14,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Killing Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -27,7 +27,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Interrupting Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -40,7 +40,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Suspending Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -53,7 +53,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Resuming Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -66,7 +66,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Backgrounding Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -79,7 +79,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Foregrounding Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -92,7 +92,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Starting Backgrounded Processes
 **Commands used:**
 - `>`  : Used to   
 
@@ -105,7 +105,7 @@
 **Flag Obtained:**
 > **
 
-## Listing Processes
+## Process Exit Codes
 **Commands used:**
 - `>`  : Used to   
 
