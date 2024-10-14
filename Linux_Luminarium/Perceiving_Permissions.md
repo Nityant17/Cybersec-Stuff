@@ -27,7 +27,7 @@
 **Flag Obtained:**
 > **
 
-## Changing File Ownership
+## Funs With Groups Names
 **Commands used:**
 - `c`  : Used to 
 
@@ -40,7 +40,7 @@
 **Flag Obtained:**
 > **
 
-## Changing File Ownership
+## Changing Permissions
 **Commands used:**
 - `c`  : Used to 
 
@@ -53,7 +53,7 @@
 **Flag Obtained:**
 > **
 
-## Changing File Ownership
+## Executable Files
 **Commands used:**
 - `c`  : Used to 
 
@@ -66,7 +66,7 @@
 **Flag Obtained:**
 > **
 
-## Changing File Ownership
+## Permission Tweaking Practice
 **Commands used:**
 - `c`  : Used to 
 
@@ -79,7 +79,7 @@
 **Flag Obtained:**
 > **
 
-## Changing File Ownership
+## Permissions Setting Practice
 **Commands used:**
 - `c`  : Used to 
 
@@ -92,3 +92,15 @@
 **Flag Obtained:**
 > **
 
+## The SUID Bit
+**Commands used:**
+- `c`  : Used to 
+
+**Thought Process:**
+- Need to 
+
+**Solution:**
+- Start the challenge, input the command
+
+**Flag Obtained:**
+> **
