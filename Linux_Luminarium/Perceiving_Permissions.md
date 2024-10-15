@@ -3,7 +3,8 @@
 
 ## Changing File Ownership
 **Commands used:**
-- `c`  : Used to 
+- `chown [username] [file]`  : Used to change the ownership of files
+- `ls -l`  : Used to view all the files/directories and what users have what permissions over them, while viewing some things to keep in mind are, if it starts with "-" its a file and if it starts "d" its a directory, the next nine characters are the actual access permissions of the file or directory, split into 3 characters denoting the permissions that the user who owns the file (termed the "owner") has to the file, 3 characters denoting the permissions that the group that owns the file (termed the "group") has to the file, and 3 characters denoting the permissions that all other access (e.g., by other users and other groups) has to the file, in these characters `r` denotes the permission to read, `w` denotes the permission to write, `x` denotes permission to execute. There are also two columns showing the user that owns the file and then the group that owns the file.
 
 **Thought Process:**
 - Need to 
