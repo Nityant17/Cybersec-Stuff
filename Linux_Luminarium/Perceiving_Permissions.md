@@ -10,7 +10,7 @@
 - We first find the permissions given to the `/flag` file, we find its only allowed to be accessed by "root" user so we need to change the owner of the `/flag` file to the "hacker" user to gain access to it so that we can read the file to get the flag thus we do that by using the `chown` command.
 
 **Solution:**
-- Start the challenge, go to `/` directory and input the command `ls -l` to view the permissions of "flag" file, we see that only "root" is allowed to access so change its permissions to allow "hacker" i.e us to gain access, we do that by using the command `chown hacker /flag` to give us permissions then we read the file using `cat flag` to get the flag.
+- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the permissions of "/flag" file, we see that only "root" is allowed to access so change its permissions to allow "hacker" i.e us to gain access, we do that by using the command `chown hacker /flag` to give us permissions then we read the file using `cat flag` to get the flag.
 
 **Flag Obtained:**
 > *pwn.college{8wUSQn28ENp6U0zvnjHBUaQbcLg.dFTM2QDLwMTN0czW}*
