@@ -38,7 +38,7 @@
 - We first find the ownerships of the `/flag` file, we find its only allowed to be accessed by "root" group so we need to change the group ownership of the file to the our group to gain access to it so that we can read the file to get the flag thus we do that by using the `chgrp` command but we dont know what group we are in so find that using `id` command. 
 
 **Solution:**
-- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the owners of "/flag" file, we see that only "root" group is allowed to access it, so change its ownerships to allow our group to gain access, but first we need to find our group name by entering `id`, we find that our group name is "grp4665", now change the ownership by using the command `chgrp grp4665 flag` to give us access then we read the file using `cat flag` to get the flag .
+- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the owners of "/flag" file, we see that only "root" group is allowed to access it, so change its ownerships to allow our group to gain access, but first we need to find our group name by entering `id`, we find that our group name is "grp4665", now change the ownership by using the command `chgrp grp4665 flag` to give us access then we read the file using `cat flag` to get the flag.
 
 **Flag Obtained:**
 > *pwn.college{kyf-66T_Fh05qpf-Mq0C2_TAucP.dJzNyUDLwMTN0czW}*
