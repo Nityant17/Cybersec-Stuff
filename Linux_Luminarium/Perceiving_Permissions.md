@@ -48,7 +48,7 @@
 - `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions 
 
 **Thought Process:**
-- Need to change the permissions of the `/flag` file to read it so we do that by using `chmod` command.
+- We first find the permissions of the `/flag` file, we find its only allowed to be read by "root" user so we need to change the permissions of the `/flag` file to be able to read it so we do that by using `chmod` command.
 
 **Solution:**
 - Start the challenge, input the command `cd /` to go to `/` directory and use `ls -l` see the permissions given to "/flag" file, we see only "root" user is allowed to read it so we modify its permissions to give us access to read it by adding the permission to read to all users using the command `chmod a+r flag` then we use the command `cat flag` to read the file and get the flag.
