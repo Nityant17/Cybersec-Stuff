@@ -10,23 +10,24 @@
 - We first find the permissions given to the `/flag` file, we find its only allowed to be accessed by "root" user so we need to change the owner of the `/flag` file to the "hacker" user to gain access to it so that we can read the file to get the flag thus we do that by using the `chown` command.
 
 **Solution:**
-- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the permissions of "/flag" file, we see that only "root" is allowed to access so change its permissions to allow "hacker" i.e us to gain access, we do that by using the command `chown hacker /flag` to give us permissions then we read the file using `cat flag` to get the flag.
+- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the permissions of "/flag" file, we see that only "root" is allowed to access it, so change its permissions to allow "hacker" i.e us to gain access, we do that by using the command `chown hacker flag` to give us permissions then we read the file using `cat flag` to get the flag.
 
 **Flag Obtained:**
 > *pwn.college{8wUSQn28ENp6U0zvnjHBUaQbcLg.dFTM2QDLwMTN0czW}*
 
 ## Groups and Files
 **Commands used:**
-- `c`  : Used to 
+- `id`    : Used to check what groups you are part of
+- `chgrp` : Used to change the group ownership of files
 
 **Thought Process:**
-- Need to 
+- We first find the permissions given to the `/flag` file, we find its only allowed to be accessed by "root" group so we need to change the group ownership of the `/flag` file to the "hacker" group to gain access to it so that we can read the file to get the flag thus we do that by using the `chgrp` command.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, go to `/` directory by entering `cd /` and input the command `ls -l` to view the permissions of "/flag" file, we see that only "root" group is allowed to access it, so change its permissions to allow "hacker" group i.e us to gain access, we do that by using the command `chgrp hacker flag` to give us permissions then we read the file using `cat flag` to get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{wLgEbFY71AS1CM-nsk9WIxLwv81.dFzNyUDLwMTN0czW}*
 
 ## Funs With Groups Names
 **Commands used:**
