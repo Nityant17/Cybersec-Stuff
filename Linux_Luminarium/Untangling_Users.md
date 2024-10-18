@@ -40,7 +40,7 @@
 **Flag Obtained:**
 > **
 
-## Usinf sudo
+## Using sudo
 **Commands used:**
 - `c`  : Used to
 
