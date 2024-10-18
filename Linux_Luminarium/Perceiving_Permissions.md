@@ -45,7 +45,7 @@
 
 ## Changing Permissions
 **Commands used:**
-- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions 
+- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions, we can also set the permissions using "=" and chain multiple modes using "," and "=-" is used to zero out permissions 
 
 **Thought Process:**
 - We first find the permissions of the `/flag` file, we find its only allowed to be read by "root" user so we need to change the permissions of the `/flag` file to be able to read it so we do that by using `chmod` command.
@@ -58,7 +58,7 @@
 
 ## Executable Files
 **Commands used:**
-- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions 
+- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions, we can also set the permissions using "=" and chain multiple modes using "," and "=-" is used to zero out permissions 
 
 **Thought Process:**
 - We need to run `/challenge/run` to get the flag so we first find the permissions of the `/challenge/run`, we find that we can only read it so we need to change the permissions of the `/challenge/run` to be able to execute it so we do that by using `chmod` command. 
@@ -71,29 +71,29 @@
 
 ## Permission Tweaking Practice
 **Commands used:**
-- `c`  : Used to 
+- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions, we can also set the permissions using "=" and chain multiple modes using "," and "=-" is used to zero out permissions 
 
 **Thought Process:**
-- Need to 
+- Need to adjust permissions of `/challenge/pwn` correctly 8 times in a row to finally get the flag so we do that by using the command `chmod` and what we learnt till now.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to see what we need to set the permissions of `/challenge/pwn` as and just keep changing its permissions as required to ultimately be able to change the permission of `/flag` and be able to read it and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{0hDVdZMeRgbM0exa6nO0cnWr-hv.dBTM2QDLwMTN0czW}*
 
 ## Permissions Setting Practice
 **Commands used:**
-- `c`  : Used to 
+- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions, we can also set the permissions using "=" and chain multiple modes using "," and "=-" is used to zero out permissions 
 
 **Thought Process:**
-- Need to 
+- Need to adjust permissions of `/challenge/pwn` correctly 8 times in a row to finally get the flag so we do that by using the command `chmod` and what we learnt till now.
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `/challenge/run` to see what we need to set the permissions of `/challenge/pwn` as and just keep changing its permissions as required to ultimately be able to change the permission of `/flag` and be able to read it and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{Aqr3cS-bHhG9NRbo3F27BJOsTrJ.dNTM5QDLwMTN0czW}*
 
 ## The SUID Bit
 **Commands used:**
