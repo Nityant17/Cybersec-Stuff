@@ -58,16 +58,16 @@
 
 ## Executable Files
 **Commands used:**
-- `c`  : Used to 
+- `chmod [OPTIONS] MODE FILE`  : Used to change the permissions of files, it uses the format of "WHO+/-WHAT" where "WHO" is user(u), group(g), other(o) or all(a) and "WHAT" is read(r), write(w) or execute(x) and "+" is used to add permission while "-" is used to revoke permissions 
 
 **Thought Process:**
-- Need to 
+- We need to run `/challenge/run` to get the flag so we first find the permissions of the `/challenge/run`, we find that we can only read it so we need to change the permissions of the `/challenge/run` to be able to execute it so we do that by using `chmod` command. 
 
 **Solution:**
-- Start the challenge, input the command
+- Start the challenge, input the command `chmod u+x /challenge/run` to give us permission to execute the file then enter `/challenge/run` to run the porgram and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{4syHLWILIWIgFV55hVHx_rCwhbR.dJTM2QDLwMTN0czW}*
 
 ## Permission Tweaking Practice
 **Commands used:**
