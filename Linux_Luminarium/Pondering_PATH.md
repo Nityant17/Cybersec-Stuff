@@ -33,10 +33,10 @@
 - `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run also all of the various redirection methods work: `>` for stdout, `2>` for stderr, `<` for stdin, `>>` and `2>>` for append-mode redirection, `>&` for redirecting to other file descriptors, and `|` for piping to another command
 
 **Thought Process:**
-- Need to run `/challenge/run` which will run the `win` command via its bare name, but this command doesnt exist so we need to make a shell script named `win` which will read the flag, which is not initially in the `PATH` so we can just overwrite `PATH` with this directory so the shell knows where to find the command and can run with its bare name.
+- Need to run `/challenge/run` which will run the `win` command via its bare name, but this command doesnt exist so we need to make a shell script named `win` which will read the `/flag` file to get the flag, and add its directory to `PATH` so the shell knows where to find the command and can run with its bare name. While modifying `PATH` we need to make sure the shell can still find the path to the command used in the `win` script to use it.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `   
 
 **Flag Obtained:**
 > **
