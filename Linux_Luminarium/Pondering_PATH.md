@@ -36,10 +36,10 @@
 - Need to run `/challenge/run` which will run the `win` command via its bare name, but this command doesnt exist so we need to make a shell script named `win` which will read the `/flag` file to get the flag, and add its directory to `PATH` so the shell knows where to find the command and can run with its bare name. While modifying `PATH` we need to make sure the shell can still find the path to the command used in the `win` script to use it.
 
 **Solution:**
-- Start the challenge, input the command `vim win`   
+- Start the challenge, input the command `vim win` to create the script and open it in vim editor and write the command `cat /flag` in it, then also make it executable by using `chmod u+x win` then we need to add it to the `PATH` but we need to be careful while changing `PATH` so we just check what `PATH` contains using `echo $PATH` and also copy it while modifiying `PATH` so the final command we enter to modify `PATH` is `PATH="/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/hacker"` to add the directory that `win` is in so that it can be ran. Now finally we run `/challenge/run` and get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{AfBA422ZX_LRcroZwQI8gopm5ay.dZzNyUDLwMTN0czW}*
 
 ## Hijacking Commands
 **Commands used:**
