@@ -3,16 +3,16 @@
 
 ## The PATH Variable
 **Commands used:**
-- `c`  : Used to
+- `PATH`  : A special shell variable used to store a bunch of directory paths in which the shell will search for programs corresponding to commands called
 
 **Thought Process:**
-- Need to run 
+- Need to disrupt the operation of the `/challenge/run` program which will DELETE the flag file using the `rm` command so to disrupt it we clear the `PATH` variable thus its not able to find the `rm` command and we get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `PATH=""` to clear the path variable and then run the program `/challenge/run` and since it cant find `rm` we get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{wHwgd3LutZFG6zqSe1oSgb_ysqe.dZzNwUDLwMTN0czW}*
 
 ## Setting PATH
 **Commands used:**
