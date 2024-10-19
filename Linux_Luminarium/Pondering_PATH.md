@@ -43,13 +43,14 @@
 
 ## Hijacking Commands
 **Commands used:**
-- `c`  : Used to
+- `PATH`  : A special shell variable used to store a bunch of directory paths in which the shell will search for programs corresponding to commands called
+- `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run also all of the various redirection methods work: `>` for stdout, `2>` for stderr, `<` for stdin, `>>` and `2>>` for append-mode redirection, `>&` for redirecting to other file descriptors, and `|` for piping to another command
 
 **Thought Process:**
-- Need to run 
+- Need to run `/challenge/run` which will run the `rm` command which will delete the flag, so what we do to avoid this is create a new script `rm` and modify the `PATH` variable to direct the shell to the new `rm` command which will read the flag instead of the one that will delete it. While modifying `PATH` we need to make sure the shell can still find the path to the command used in the new `rm` script to use it.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `vim win` to create the script and open it in vim editor and write the command `cat /flag` in it, then also make it executable by using `chmod u+x win` then we need to add it to the `PATH` but we need to be careful while changing `PATH` so we just check what `PATH` contains using `echo $PATH` and also copy it while modifiying `PATH` so the final command we enter to modify `PATH` is `PATH="/run/challenge/bin:/run/workspace/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/hacker"` to add the directory that `win` is in so that it can be ran. Now finally we run `/challenge/run` and get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{o47Xqophlc_iG-O9Pq3kYuJj0aQ.ddzNyUDLwMTN0czW}*
