@@ -16,7 +16,7 @@
 
 ## Your First Shell Script
 **Commands used:**
-- `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run 
+- `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run also all of the various redirection methods work: `>` for stdout, `2>` for stderr, `<` for stdin, `>>` and `2>>` for append-mode redirection, `>&` for redirecting to other file descriptors, and `|` for piping to another command 
 
 **Thought Process:**
 - Need to run `/challenge/pwn` and then `/challenge/college`, but this time in a shell script called "x.sh", then run it with `bash` to get the flag.
@@ -29,16 +29,16 @@
 
 ## Redirecting Script Output
 **Commands used:**
-- `su`  : Used to 
+- `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run also all of the various redirection methods work: `>` for stdout, `2>` for stderr, `<` for stdin, `>>` and `2>>` for append-mode redirection, `>&` for redirecting to other file descriptors, and `|` for piping to another command  
 
 **Thought Process:**
-- Need to 
+- Need to create a script that calls the `/challenge/pwn` command followed by the `/challenge/college` command, and pipe the output of the script into a single invocation of the `/challenge/solve` command to get the flag.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `vim x.sh` to create the script and open it in vim editor and write the commands `/challenge/pwn` and then `/challenge/college` in it, then execute this script and pipe its output to `/challenge/solve` by entering `bash x.sh | /challenge/solve` to get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{g2ke9pRve_QrUAs4ACv4Id49X67.dhTM5QDLwMTN0czW}*
 
 ## Executable Shell Scripts
 **Commands used:**
