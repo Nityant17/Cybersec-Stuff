@@ -16,16 +16,16 @@
 
 ## Setting PATH
 **Commands used:**
-- `c`  : Used to
+- `PATH`  : A special shell variable used to store a bunch of directory paths in which the shell will search for programs corresponding to commands called
 
 **Thought Process:**
-- Need to run 
+- Need to run `/challenge/run` which will run the `win` command via its bare name, but this command exists in the `/challenge/more_commands/` directory, which is not initially in the `PATH` so we can just overwrite `PATH` with this directory so the shell knows where to find the command and can run with its bare name. 
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `PATH="/challenge/more_commands/"` to overwrite the variable to allow the shell to find `win` command, now run the program `/challenge/run` and get the flag.   
 
 **Flag Obtained:**
-> **
+> *pwn.college{8XQ9rf6ZrePKQpAQlRu2tbDmPiH.dVzNyUDLwMTN0czW}*
 
 ## Adding Commands
 **Commands used:**
