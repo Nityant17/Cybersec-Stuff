@@ -43,13 +43,13 @@
 
 ## Using sudo
 **Commands used:**
-- `c`  : Used to
+- `sudo`  : Used to run a command as root instead of switching the user entirely and it relies on policies that it checks to determine the user's authorization to run things as root. These policies are defined in `/etc/sudoers`
 
 **Thought Process:**
-- Need to
+- Need to read `/flag` to get the flag but we need root access so we just run the command as root using `sudo`.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `sudo cat /flag` to read the file as root and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{oIB0Pz5Aor1334JGKCAslJhm5Bh.dhTN0UDLwMTN0czW}*
