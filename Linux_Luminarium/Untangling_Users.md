@@ -29,16 +29,17 @@
 
 ## Cracking passwords
 **Commands used:**
-- `c`  : Used to
+- `su some-user`  : Used to switch user to the specified user name
+- `john file`     : Used to decrypt/crack hashed passwords from a leaked `/etc/shadow` file which stores all the users passwords
 
 **Thought Process:**
-- Need to
+- Need to find out the passowrd for "zardus" user from the leaked `/etc/shadow` file named as `/challenge/shadow-leak` we do that by using `john` so that we can switch to the "zardus" user and then run `/challenge/run` to get the flag.
 
 **Solution:**
-- Start the challenge, input the command 
+- Start the challenge, input the command `john /challenge/shadow-leak` to crack the hashed password of "zardus" we find that the password is "aardvark" thus now we can switch the user using `su zardus` and entering "aardvark" as password and run `/challenge/run` and get the flag. 
 
 **Flag Obtained:**
-> **
+> *pwn.college{0IeMD6fZu-HdMQ3-6sht2CgvYKR.ddTN0UDLwMTN0czW}*
 
 ## Using sudo
 **Commands used:**
