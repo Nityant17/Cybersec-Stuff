@@ -3,7 +3,7 @@
 
 ## Chaining with Semicolons
 **Commands used:**
-- `;`  : Used to to chain commands
+- `;`  : Used to chain commands
 
 **Thought Process:**
 - Need to run `/challenge/pwn` and then `/challenge/college`, chaining them with a semicolon to get the flag.
