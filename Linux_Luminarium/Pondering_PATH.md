@@ -1,15 +1,54 @@
-# Chaining Commands
+# Pondering PATH
 - Used the `ssh -i key hacker@pwn.college` command in the terminal to establish connection between the terminal and [pwn.college](https://pwn.college/)
 
-## Chaining with Semicolons
+## The PATH Variable
 **Commands used:**
 - `c`  : Used to
 
 **Thought Process:**
-- Need to run `/challenge/pwn` and then `/challenge/college`, chaining them with a semicolon to get the flag.
+- Need to run 
 
 **Solution:**
-- Start the challenge, input the command `/challenge/pwn;/challenge/college` to chain them and get the flag.  
+- Start the challenge, input the command  
 
 **Flag Obtained:**
-> *pwn.college{MgS5isnKKLvyTnaIqVc5-6xlhpU.dVTN4QDLwMTN0czW}*
+> **
+
+## Setting PATH
+**Commands used:**
+- `c`  : Used to
+
+**Thought Process:**
+- Need to run 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+> **
+
+## Adding Commands
+**Commands used:**
+- `c`  : Used to
+
+**Thought Process:**
+- Need to run 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+> **
+
+## Hijacking Commands
+**Commands used:**
+- `c`  : Used to
+
+**Thought Process:**
+- Need to run 
+
+**Solution:**
+- Start the challenge, input the command  
+
+**Flag Obtained:**
+> **
