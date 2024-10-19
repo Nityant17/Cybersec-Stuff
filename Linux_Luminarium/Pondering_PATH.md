@@ -36,7 +36,7 @@
 - Need to run `/challenge/run` which will run the `win` command via its bare name, but this command doesnt exist so we need to make a shell script named `win` which will read the `/flag` file to get the flag, and add its directory to `PATH` so the shell knows where to find the command and can run with its bare name. While modifying `PATH` we need to make sure the shell can still find the path to the command used in the `win` script to use it.
 
 **Solution:**
-- Start the challenge, input the command `   
+- Start the challenge, input the command `vim win`   
 
 **Flag Obtained:**
 > **
