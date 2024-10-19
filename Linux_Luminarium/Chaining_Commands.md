@@ -42,13 +42,13 @@
 
 ## Executable Shell Scripts
 **Commands used:**
-- `su`  : Used to 
+- `/path/to/script.sh`  : Used to execute a script without using `bash`
 
 **Thought Process:**
-- Need to 
+- Need to make a shellscript that will invoke `/challenge/solve`, make it executable, and run it without explicitly invoking `bash` so we do this by providing the path to the script to run it.
 
 **Solution:**
-- Start the challenge, input the command  
+- Start the challenge, input the command `vim y.sh` to create the script and open it in vim editor and write the commands `/challenge/solve` in it, then make the script executable using `chmod u+x y.sh` finally execute the script by entering its path i.e `./y.sh` and get the flag.
 
 **Flag Obtained:**
-> **
+> *pwn.college{syYQJclG2k1AP5mOb6LY8TcDUbo.dRzNyUDLwMTN0czW}*
