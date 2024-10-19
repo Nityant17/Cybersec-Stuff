@@ -29,10 +29,11 @@
 
 ## Adding Commands
 **Commands used:**
-- `c`  : Used to
+- `PATH`  : A special shell variable used to store a bunch of directory paths in which the shell will search for programs corresponding to commands called
+- `bash file.sh`  : Used to execute shell scripts i.e a ".sh" file containing commands to be run also all of the various redirection methods work: `>` for stdout, `2>` for stderr, `<` for stdin, `>>` and `2>>` for append-mode redirection, `>&` for redirecting to other file descriptors, and `|` for piping to another command
 
 **Thought Process:**
-- Need to run 
+- Need to run `/challenge/run` which will run the `win` command via its bare name, but this command doesnt exist so we need to make a shell script named `win` which will read the flag, which is not initially in the `PATH` so we can just overwrite `PATH` with this directory so the shell knows where to find the command and can run with its bare name.
 
 **Solution:**
 - Start the challenge, input the command  
