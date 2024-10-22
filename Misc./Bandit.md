@@ -26,8 +26,8 @@ We need to go to the directory "inhere" and read the correct file to get the pas
 > password: "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
 
 ## Level 6
-We 
-> password: ""
+We need to go to the directory "inhere" and read the correct file to get the password but we know few details about the correct file, we know that it has a size of "1033" bytes so we use the `du` command, it tells us the size of files and directories so we use the command `du -abl`(a is to get the size of ALL files and directoies, b is the convert the size into bytes and l is to print them in a list format) to get the file sizes of all the files in all the directories in "inhere" but there are alot of files here so we use `grep` to find the file by using the command `du -alb | grep 1033`, finally we find the file is `./maybehere07/.file2` so read it by using `cat  ./maybehere07/.file2` and get the password. 
+> password: "HWasnPhtq9AVKe0dmk45nxy20cvUa6EG"
 
 ## Level 7
 We 
