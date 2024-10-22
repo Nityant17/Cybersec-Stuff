@@ -18,8 +18,8 @@ We need to read the file "spaces in this filename" to get the flag, since we can
 > password: "MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx"
 
 ## Level 4
-We 
-> password: ""
+We need to go to the directory "inhere" and find the hidden file so we do `cd inhere` and use `ls -a` to see all files, we find the file is "...Hiding-From-You" so we read it by using `cat ...Hiding-From-You` and get the password.
+> password: "2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ"
 
 ## Level 5
 We 
