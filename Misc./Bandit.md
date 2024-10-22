@@ -23,8 +23,28 @@ We need to go to the directory "inhere" and find the hidden file so we do `cd in
 
 ## Level 5
 We 
-> password: ""
+> password: "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
 
 ## Level 6
+We 
+> password: ""
+
+## Level 7
+We 
+> password: ""
+
+## Level 8
+We 
+> password: ""
+
+## Level 9
+We 
+> password: ""
+
+## Level 10
+We 
+> password: ""
+
+## Level 11
 We 
 > password: ""
