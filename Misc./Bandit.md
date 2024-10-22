@@ -22,7 +22,7 @@ We need to go to the directory "inhere" and find the hidden file so we do `cd in
 > password: "2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ"
 
 ## Level 5
-We need to go to the directory "inhere" and read the correct file to get the password so just read all of them one by one and we find that `cat ./-file07` had the password. We could also just check what type of content is in each file using `file` and find the correct one and then read it.
+We need to go to the directory "inhere" and read the correct file to get the password so just read all of them one by one and we find that `cat ./-file07` had the password. We could also just check what type of content is in each file using `file` since only the correct file is human readable and find the correct one and then read it.
 > password: "4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw"
 
 ## Level 6
