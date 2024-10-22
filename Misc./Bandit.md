@@ -14,8 +14,8 @@ We need to read the "-" file to get the password for next level so we do that by
 > password: "263JGJPfgU6LtdEvgfWU1XP5yac29mFx"
 
 ## Level 3
-We 
-> password: ""
+We need to read the file "spaces in this filename" to get the flag, since we cant enter this file name directly in the command due to the space, I used the help of "Tab" key what i did was enter `cat spac` and clicked "Tab" it auto filled the command to read the only available file starting with "spac" and thus the command i finally got was `cat spaces\ in\ this\ filename` which worked and i got the password.
+> password: "MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx"
 
 ## Level 4
 We 
