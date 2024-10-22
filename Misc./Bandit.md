@@ -10,4 +10,21 @@ We need to read the "readme" file to get the password for the next level so we j
 > password: "ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If"
 
 ## Level 2
+We need to read the "-" file to get the password for next level so we do that by using `cat ./-` (we add "./" since "-" is a special character so it assumes its there to give an argument). 
+> password: "263JGJPfgU6LtdEvgfWU1XP5yac29mFx"
+
+## Level 3
 We 
+> password: ""
+
+## Level 4
+We 
+> password: ""
+
+## Level 5
+We 
+> password: ""
+
+## Level 6
+We 
+> password: ""
