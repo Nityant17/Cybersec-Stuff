@@ -142,7 +142,7 @@
 - Need to run `/challenge/hack` this produces data on stdout and stderr, we need to provide stderr to `/challenge/the` and the stdout to `/challenge/planet` to get the flag, we do this by combining all our previous knowledge.
 
 **Solution:**
-- Start the challenge, input the command `/challenge/hack 2>1 >(/challenge/the) | /challenge/planet` to convert the stderr to stdout and write it to a temporary file to be read by `/challenge/the` and also directly redirect the stdout to `/challenge/planet` using `|` and thus satisfy the conditions and get the flag.   
+- Start the challenge, input the command `/challenge/hack 2> >(/challenge/the) | /challenge/planet` to convert the stderr to stdout and write it to a temporary file to be read by `/challenge/the` and also directly redirect the stdout to `/challenge/planet` using `|` and thus satisfy the conditions and get the flag.   
 
 **Flag Obtained:**
 > *pwn.college{IT_yZ4RuBx4g9YY2boSWPRqXbmL.dFDNwYDLwMTN0czW}*
