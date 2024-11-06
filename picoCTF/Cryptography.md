@@ -109,7 +109,7 @@ Knowledge Gained:
 2. How to make a decoder from an encoder
 3. Difference between python3 and python2
 
-Other incorrect methods you tried:
+Incorrect methods:
 
 - In the starting i messed up indexing by not including " " while encoding "hello"
 - While writing the decoding code in value of "d" i used [  ] as brackets which made it a list and led to type error 
