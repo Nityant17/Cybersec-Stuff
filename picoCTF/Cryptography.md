@@ -137,7 +137,7 @@ Now to decode it we are given the values of "n", "c" and "e" and we can see that
 
 Sine we have value of "c" we just cube root and get the flag!!! But the "c" given was really big and and not in array format so i used an online decoder to decode it and finally get the flag!!!
 
-![screenshot](![image](https://github.com/user-attachments/assets/3743fae5-f51e-4058-806b-43837d2c2831))
+![image](https://github.com/user-attachments/assets/3743fae5-f51e-4058-806b-43837d2c2831)
 
 
 Knowledge Gained:
