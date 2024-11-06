@@ -112,7 +112,7 @@ Knowledge Gained:
 Other incorrect methods you tried:
 
 - In the starting i messed up indexing by not including " " while encoding "hello"
-- While writing the decoding code in value of "d" i used [] as brackets which made it a list and led to type error 
+- While writing the decoding code in value of "d" i used [  ] as brackets which made it a list and led to type error 
 - Was stuck on the second code for a long time didnt know what to do with the decoded code and had many failed attempts to solve it
 
 References
