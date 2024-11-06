@@ -127,9 +127,30 @@ Approach:
 
 - **Step 1**
 
-So i started by first understanding RSA using wikipedia and i understand the basic encryption method of RSA and the various terms used in its encryption such as "d" (private decryption key), "e and n" (public decryption keys), "m and c" (decoded and encoded message) and also the relation between all of them, n=p*q where p and q are 2 prime nummbers, φ(n)=(p-1)(q-1) and (d*e)%φ(n)=1 and the encoded message is c=[m^(d or e)]%n
+So i started by first understanding RSA using wikipedia and i understand the basic encryption method of RSA and the various terms used in its encryption such as "d" (private decryption key), "e and n" (public encryption keys), "m and c" (decoded and encoded message) and also the relation between all of them, n=p*q where p and q are 2 prime nummbers, φ(n)=(p-1)(q-1) and (d*e)%φ(n)=1 and the encoded message is c=[m^(e)]%n and decoded message is m=[c^(d)]%n
+
+- **Step 2**
+
+Now to decode it we are given the values of "n", "c" and "e" and we can see that value of "e" is really small, 3 which makes this vulnerable to "small e attack" so we exploit this fact and decode this RSA encryption, small e attack basically means that because the value of "e" is really small we can decrypt the message without the need of "d" because during encrypting the formula is "c=[m^(e)]%n" so here it will be [m^3]%n which will ultimately be equal to m^3 so we can just cube root "c" to get the flag
+
+- **Step 3**
+
+Sine we have value of "c" we just cube root and get the flag!!! But the "c" given was really big and and not in array format so i used an online decoder to decode it and finally get the flag!!!
+
+![screenshot](![image](https://github.com/user-attachments/assets/3743fae5-f51e-4058-806b-43837d2c2831))
+
+
+Knowledge Gained:
+
+1. Working of RSA encryption and decryption
+2. What is small "e" attack and how to do it
+
+Incorrect methods:
+
+- I didnt understand how to cube root the large and single value of "c" given so i had many failed attempts 
 
 References
 
 - [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
-- [RSA Decoder](https://www.dcode.fr/rsa-cipher)
+- [Decoder](https://www.dcode.fr/rsa-cipher)
+- [How to small e attack](https://amsghimire.medium.com/low-exponent-attack-511bf5d227fc)
