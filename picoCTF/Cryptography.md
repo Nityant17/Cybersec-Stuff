@@ -7,6 +7,7 @@ Approach:
 - **Step 1**
 
 So i started by first using chatGPT to understand the encoding code and see how the code works
+
 encoding code:
 ```
 import sys
@@ -33,6 +34,7 @@ What i found out was that the code was a cyclical encoder and basically what the
 - **Step 2**
 
 After understanding the code we need to write the decoding code of it and to do that we need to get a full grasp on its working, i did that by manually encoding "hello" using this method and seeing how exactly the index values changed and how we could decode it so on encoding i got the values "brHAD" and seeing the relationships between all the indexes i managed to make a connection and find the way to decode it, we could decode the message by taking the index of the character in encoded message in "lookup2" adding the index of previous decoded chracater in "lookup1" to it and dividing by 40 and getting the remainder to get the current encoded characters index in "lookup1" and find its decoded alternative
+
 decoding code:
 ```
 import sys
