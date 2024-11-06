@@ -118,3 +118,18 @@ Incorrect methods:
 References
 
 - [chatGPT](chatgpt.com)
+
+# miniRSA
+
+**Flag:** `picoCTF{n33d_a_lArg3r_e_d0cd6eae}`
+
+Approach:
+
+- **Step 1**
+
+So i started by first understanding RSA using wikipedia and i understand the basic encryption method of RSA and the various terms used in its encryption such as "d" (private decryption key), "e and n" (public decryption keys), "m and c" (decoded and encoded message) and also the relation between all of them, n=p*q where p and q are 2 prime nummbers, φ(n)=(p-1)(q-1) and (d*e)%φ(n)=1 and the encoded message is c=[m^(d or e)]%n
+
+References
+
+- [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+- [RSA Decoder](https://www.dcode.fr/rsa-cipher)
