@@ -14,8 +14,6 @@ I tried really hard to find an online SSTV decoder but was unable to find one ul
 
 ![WhatsApp Image 2024-11-08 at 02 04 23_5f89e5d6](https://github.com/user-attachments/assets/a00ebe72-ed09-4190-ba67-db14464d8aa1)
 
-![WhatsApp Image 2024-11-08 at 02 04 23_aba142c4](https://github.com/user-attachments/assets/7d1ecc5d-7e48-43bc-9d97-c4481b4eb123)
-
 The picture was a bit unclear but i was able to guess the "im" and "in" part
 
 Knowledge Gained:
