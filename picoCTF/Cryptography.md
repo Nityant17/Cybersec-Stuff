@@ -165,11 +165,10 @@ Approach:
 
 
 
-What you learned through solving this challenge:
+Knowledge Gained:
 
-1. first concept
-2. second concept
-3. etc.
+1. Working of XOR and how it is reversible
+2. Same concepts learned in C3
 
 References
 
