@@ -280,6 +280,10 @@ Knowledge Gained:
 1. Working of XOR and how it is reversible
 2. Same concepts learned in C3
 
+Incorrect Methods:
+
+- No incoorect method was pretty simple
+
 References
 
 - [chatGPT](chatgpt.com)
