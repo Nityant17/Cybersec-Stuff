@@ -282,4 +282,5 @@ Knowledge Gained:
 
 References
 
-- [chatGPT](chatgpt.com) 
+- [chatGPT](chatgpt.com)
+- [XOR](https://ctf101.org/cryptography/what-is-xor/)
