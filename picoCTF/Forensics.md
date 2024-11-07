@@ -10,7 +10,7 @@ I started by downloading the file and saw it was a .wav file which means it was 
 
 - step 2
 
-I tried really hard to find an online SSTV decoder but was unable to find one ultimatley i downloaded a mobile app which had the decoder and played the audio on my laptop and let the app do the magic while my ears bled, and thus i got the picture with the flag!!!
+I tried really hard to find an online SSTV decoder but was unable to find one ultimatley i downloaded a mobile app which had the decoder and played the audio on my laptop, set RX as scottie 1 and let the app do the magic while my ears bled, and thus i got the picture with the flag!!!
 
 ![WhatsApp Image 2024-11-08 at 02 04 23_5f89e5d6](https://github.com/user-attachments/assets/a00ebe72-ed09-4190-ba67-db14464d8aa1)
 
