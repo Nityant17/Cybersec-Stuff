@@ -232,6 +232,49 @@ So basically how the code works is by encoding the flag using two differenct met
 
 But first we need to fully understand the code, the code has different functions that do different things the main one is `test` it starts the encryption process. It first takes in values of "p" and "g" and checks if they are prime or not using `is_prime`, if they arent prime it retakes their values here in our case the values are "p=97" and "g=31" both are prime. Now it moves on to key generation for which it randomly generates "a" and "b" (luckily we know the value of them used for encoding) and uses them to generate "u" and "v" using `generator` (which basically takes in three parameters and puts them in the formula (g^x)%p and returns the value), so we now have values of "u" and "v" which are used to generate the "key" and "b_key" again by using `generator` and if both have equal values then "shared_key" is assigned the value of "key". Now all the keys are generated and it starts the encoding by first getting a semi ciphertext by using the `dynamic_xor_encrypt` which takes in the "flag" and a "text_key" (given while running `test` ("trudeau")) then it reverses the "flag" and XOR's each character of the "flag" with its corressponding character in "text_key" to get the semi cipher. Finally it takes the semi cipher and gives it to `encrypt` along with the "shared_key" which basically takes each character from semi cipher converts it to ASCII then multiplies it with the "shared_key" and 311 then appends the number to a list "cipher" which is the final ciphertext.   
 
+- **Step 3**
+
+Now we finally start the decoding process, to decode this we need to first generate the same keys used (this is easy since we have "a" and "b" we can just use the `generator` function to get the keys). After this we need to undo the `encrypt` encryption to get the semi cipher from final cipher (this is done by dividing each number in ciphertext list by the key generated and 311 to get the ASCII values then using `chr` to convert to string), now that we have the semi cipher we need to undo the XOR encryption, luckily XOR is reversible so we use this fact to decrypt it, then we just reverse the decrypted answer and get the flag!!!
+
+decoding code:
+```
+from random import randint
+
+def generator(g, x, p):
+    return pow(g, x, p)
+
+def decrypt(cipher, key):
+    decrypted_text = ""
+    for num in cipher:
+        char_code = num // (key * 311)
+        decrypted_text += chr(char_code)
+    return decrypted_text
+
+def dynamic_xor_decrypt(cipher_text, text_key):
+    decrypted_text = ""
+    key_length = len(text_key)
+    for i, char in enumerate(cipher_text):
+        key_char = text_key[i % key_length]
+        decrypted_char = chr(ord(char) ^ ord(key_char))
+        decrypted_text += decrypted_char
+    return decrypted_text[::-1]
+
+def decode(cipher, a, b, g=31, p=97, text_key="trudeau"):
+    u = generator(g, a, p)
+    v = generator(g, b, p)
+    shared_key = generator(v, a, p)
+    semi_cipher = decrypt(cipher, shared_key)
+    plaintext = dynamic_xor_decrypt(semi_cipher, text_key)
+    return plaintext
+
+ciphered_message = [ list of the ciphertext ] 
+a = 88
+b = 26
+decoded_message = decode(ciphered_message, a, b)
+print("Decoded message:", decoded_message)
+```
+On running this code we get the flag!!!
+
 Knowledge Gained:
 
 1. Working of XOR and how it is reversible
