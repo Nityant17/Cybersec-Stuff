@@ -154,3 +154,23 @@ References
 - [Wikipedia](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
 - [Decoder](https://www.dcode.fr/rsa-cipher)
 - [How to small e attack](https://amsghimire.medium.com/low-exponent-attack-511bf5d227fc)
+
+# Custom encryption
+
+**Flag:** `picoCTF{custom_d2cr0pt6d_019c831c}`
+
+Approach:
+
+- **Step 1**
+
+
+
+What you learned through solving this challenge:
+
+1. first concept
+2. second concept
+3. etc.
+
+References
+
+- [chatGPT](chatgpt.com) 
