@@ -39,11 +39,65 @@ Approach:
 
 - **Step 1**
 
-
+When i first downloaded the file i saw it was in ".pcapng" format, i had no clue of what this was so as always i used chatGPT to understand it after reading on it i learned that a ".pcapng" file (Packet Capture Next Generation) is a file format used to store network packet data and you can analyze these files by using tshark or wireshark and since tshark was just a linux command i decided to install that instead of wireshark (a big mistake) to analyze the file. 
 
 - **Step 2**
 
+Now with tshark installed i asked chatGPT to tell me how to use tshark and the commands i could use to find the hidden data, i tried alot of various commands and spent alot of hours to finally understand that tshark was not going to work out and i needed to install wireshark to make the file human understandable.
 
+- **Step 3**
+
+After wasting hours of my life i finally installed wireshark and opened the file in it, there i saw that there were different type of protocols being used and one of them was "TFTP", there i understood that TFTP was a type of transfer protocol and not just a challenge name, so then i researched a bit about it and and found that TFTP is used to transfer a file from a client to a server and from a server to a client by using UDP (User Datagram Protocol) and works on port number 69, also it doesnt provide much security and thus is only used on local networks. So after learning this i decided to filter the the data based on TFTP in wireshark, upon doing this i saw that there was a file instructions.txt in the data, so i went to extract it and while extracting i saw there were a few more files that could be extracted so i exctracted all of them.
+
+- **Step 4**
+
+Now with all of the files excrtacted i read "instruction.txt' and it contained a cipher, which in put in ChatGPT and it suggested that it could be ROT13 encoded so i used an online decoder and found that it said
+```
+FRONTDOORSECURITYAPPROVALREQUESTONCONFIRMATION.FIGUREOUTAWAYTOHIDETHEFLAGANDIWILLCHECKBACKFORTHEPLAN
+```
+On reading this i knew we had to do something with the "plan" file so next i read that and again found a cipher which on decoding gave
+```
+IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS
+```
+Now on reading this i understood that we needed to use the "program" file and do something with the "photos", the "program" file was a ".deb" file, so i googled what it was and found it is used to download stuff on terminal and is unpacked by using `dpkg` so i installed it by using the command
+```
+sudo dpkg -i program.deb
+```
+and while installing it showed that what was installed was `steghide` which is a steganography program that is able to hide data in various kinds of image- and audio-files and also uncover it so i learnt how to use this command and found it needs a password which i gues was "DUEDILIGENCE" from the decoded message and ran the command
+```
+steghide extract -sf ./picture1.bmp -p DUEDILIGENCE
+```
+this gave me an error
+```
+steghide: error while loading shared libraries: libjpeg.so.62: cannot open shared object file: No such file or directory
+```
+which i wasnt able to understand so i put it in chatGPT and it said to install the correct version of `libjpeg` so i did that by using 
+```
+sudo apt-get install libjpeg62
+```
+However this did not fix the error and instead gave me the output
+```
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+You might want to run 'apt --fix-broken install' to correct these.
+The following packages have unmet dependencies:
+ steghide : Depends: libjpeg62-turbo (>= 1:1.3.1) but it is not installable
+E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+```
+so then i ran
+```
+sudo apt --fix-broken install
+```
+which fixed steghide and finally it was working again so i used steghide 
+```
+steghide extract -sf ./picture1.bmp -p DUEDILIGENCE
+```
+got the output
+```
+steghide: could not extract any data with that passphrase!
+```
+tried again on the second image and got the same output but when i tried on the third image i got the flag!!!
 
 Knowledge Gained:
 
