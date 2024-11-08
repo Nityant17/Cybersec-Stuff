@@ -105,8 +105,9 @@ Knowledge Gained:
 2. How to analyze these type of files
 3. How to use tshark and wireshark
 4. What is TFTP and its working
-5. What is .deb file and how to install it
-6. What is steghide and how to use it 
+5. How to filter data in TFTP using opcode
+6. What is .deb file and how to install it
+7. What is steghide and how to use it 
 
 Incorrect Methods:
 
