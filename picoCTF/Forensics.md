@@ -154,13 +154,13 @@ After getting this image i was confused at what to do next, i tried various imag
 
 Knowledge Gained:
 
-1. What different file headers look like
+1. What different file headers look like and what type of file they represent
 2. What do different bytes represent in the hex code
-3.  
+3. Sometimes the challenge name contains a clue 
 
 Incorrect Methods:
 
-- Tried using binwalk, exiftool and other various methods just to check
+- Tried using binwalk, exiftool and other various methods just to solve the image i got and nothing worked
 
 References
 
