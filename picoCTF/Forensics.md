@@ -142,7 +142,7 @@ and the other file had
 ```
 42 4D C6 94 0C 00 00 00 00 00 36 00 00 00 28 00
 ```
-i assumed we had to change the BAD but just to confirm i put it in chatgpt and it said the first BA D0 refers to the offset where pixel data begins and 0xD0BA would imply an offset of 53,370 bytes which is not supposed to happen and the other is used to start the Bitmap Information Header and it isnt supposed to repeat the previous value so i changed them to 36 and 28 and the image opened
+Then i just changed all the values to match the other file and voila the image opened
 
 ![image](https://github.com/user-attachments/assets/d0b7daeb-2653-4f1e-8784-6db94aaca876)
 
