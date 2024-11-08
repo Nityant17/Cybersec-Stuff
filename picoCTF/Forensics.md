@@ -125,3 +125,45 @@ References
 - [tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
 - [ROT13 Decoder](https://cryptii.com/pipes/rot13-decoder)
 - [.deb file](https://en.wikipedia.org/wiki/Deb_(file_format))
+
+# tunn3l v1s10n
+
+**Flag:** `picoCTF{qu1t3_a_v13w_2020}`
+
+Approach:
+
+- **Step 1**
+
+So i downloaded the file and tried to open it and it didnt open, the hint said "Weird that it won't display right...", this reminded me of the challenge i solved in OASIS in which we were given a corrupted png and we had to fix its header to get the correct image, so i opened the file using a hex editor and saw the header and compared it to a list of file signatures and found this was a bitmap file and had .bmp extension thus i opened another .bmp picture (one from the previous challenge) and compared the starting hexes and there i saw that our file had 
+```
+42 4D 8E 26 2C 00 00 00 00 00 BA D0 00 00 BA D0
+```
+and the other file had
+```
+42 4D C6 94 0C 00 00 00 00 00 36 00 00 00 28 00
+```
+i assumed we had to change the BAD but just to confirm i put it in chatgpt and it said the first BA D0 refers to the offset where pixel data begins and 0xD0BA would imply an offset of 53,370 bytes which is not supposed to happen and the other is used to start the Bitmap Information Header and it isnt supposed to repeat the previous value so i changed them to 36 and 28 and the image opened
+
+
+
+- **Step 2**
+
+
+
+Knowledge Gained:
+
+1. How did pictures from the moon landing get sent back to Earth
+2. Who is the CMU mascot
+3. what is SSTV method of transfer 
+
+Incorrect Methods:
+
+- Tried using binwalk, exiftool and other various methods just to check
+
+References
+
+- [ChatGPT](www.chatgpt.com)
+- [Hex Editor](https://hexed.it/)
+- [decimal and hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=850)
+- [BMP file format](https://en.wikipedia.org/wiki/BMP_file_format)
+- [List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
