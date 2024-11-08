@@ -58,4 +58,8 @@ Incorrect Methods:
 References
 
 - [ChatGPT](www.chatgpt.com)
-- 
+- [TFTP](https://www.geeksforgeeks.org/what-is-tftp-trivial-file-transfer-protocol/)
+- [Wireshark](https://www.wireshark.org/download.html)
+- [tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+- [ROT13 Decoder](https://cryptii.com/pipes/rot13-decoder)
+- [.deb file](https://en.wikipedia.org/wiki/Deb_(file_format))
