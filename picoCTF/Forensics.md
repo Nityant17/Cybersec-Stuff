@@ -47,7 +47,11 @@ Now with tshark installed i asked chatGPT to tell me how to use tshark and the c
 
 - **Step 3**
 
-After wasting hours of my life i finally installed wireshark and opened the file in it, there i saw that there were different type of protocols being used and one of them was "TFTP", there i understood that TFTP was a type of transfer protocol and not just a challenge name, so then i researched a bit about it and and found that TFTP is used to transfer a file from a client to a server and from a server to a client by using UDP (User Datagram Protocol) and works on port number 69, also it doesnt provide much security and thus is only used on local networks. So after learning this i decided to filter the the data based on TFTP in wireshark, upon doing this i saw that there was a file instructions.txt in the data, so i went to extract it and while extracting i saw there were a few more files that could be extracted so i exctracted all of them.
+After wasting hours of my life i finally installed wireshark and opened the file in it, there i saw that there were different type of protocols being used and one of them was "TFTP", there i understood that TFTP was a type of transfer protocol and not just a challenge name, so then i researched a bit about it and and found that TFTP is used to transfer a file from a client to a server and from a server to a client by using UDP (User Datagram Protocol) and works on port number 69, also it doesnt provide much security and thus is only used on local networks. So after learning this i decided to filter the the data based on TFTP in wireshark, upon doing this i saw that there was a file instructions.txt in the data, i had a suspicion that we had to extract it for which i went to export objects and selected TFTP there i saw that there were a few more files that could be exported so i exported all of them.
+
+![image](https://github.com/user-attachments/assets/9b556de8-1a48-4acc-9a5b-2d49dad9d4f8)
+
+![image](https://github.com/user-attachments/assets/7c30ee10-7ef0-4d6e-ac95-15245b1ec87f)
 
 - **Step 4**
 
