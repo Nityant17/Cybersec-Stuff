@@ -148,13 +148,15 @@ Then i just changed all the values to match the other file and voila the image o
 
 - **Step 2**
 
+After getting this image i was confused at what to do next, i tried various image proceesing steps like binwalk, exiftool but it led me no where, i spent a few hours but then i had the idea to increase the size of the image since the challenge name was tunnel vision, so i learnt what hex had the value of heigth and width and decided to increase the height, i tried a few small values at first and saw it was working and the image was showing more things and finally when i enetered 850 (converted to hex 0352 and entering format 52 03) as the height i got the brand new image which had the flag!!!
 
+![image](https://github.com/user-attachments/assets/f4f31cfa-015e-4c1c-9f87-42953b59855a)
 
 Knowledge Gained:
 
-1. How did pictures from the moon landing get sent back to Earth
-2. Who is the CMU mascot
-3. what is SSTV method of transfer 
+1. What different file headers look like
+2. What do different bytes represent in the hex code
+3.  
 
 Incorrect Methods:
 
