@@ -160,7 +160,7 @@ Knowledge Gained:
 
 Incorrect Methods:
 
-- Tried using binwalk, exiftool and other various methods just to solve the image i got and nothing worked
+- Tried using binwalk, exiftool and other various methods to solve the image i got and nothing worked
 
 References
 
