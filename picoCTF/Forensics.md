@@ -8,7 +8,7 @@ Approach:
 
 I started by downloading the file and saw it was a .wav file which means it was an audio file and knew we had to use a certain decoder for it, then i saw the hints and researched a bit about them by using my trusty companion chatGPT and found out that we needed to use a SSTV decoder for it with an RX setting set to something related to Scottish Dog.
 
-- step 2
+- **Step 2**
 
 I tried really hard to find an online SSTV decoder but was unable to find one ultimatley i downloaded a mobile app which had the decoder and played the audio on my laptop, set RX as scottie 1 and let the app do the magic while my ears bled, and thus i got the picture with the flag!!!
 
@@ -31,3 +31,31 @@ References
 - [ChatGPT](www.chatgpt.com)
 - [Decoder](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en_IN)
 
+# Trivial Flag Transfer Protocol
+
+**Flag:** `picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}`
+
+Approach:
+
+- **Step 1**
+
+
+
+- **Step 2**
+
+
+
+Knowledge Gained:
+
+1. 
+2. 
+3. 
+
+Incorrect Methods:
+
+- 
+
+References
+
+- [ChatGPT](www.chatgpt.com)
+- 
