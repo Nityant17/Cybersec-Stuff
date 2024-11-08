@@ -148,7 +148,7 @@ Then i just changed all the values to match the other file and voila the image o
 
 - **Step 2**
 
-After getting this image i was confused at what to do next, i tried various image proceesing steps like binwalk, exiftool but it led me no where, i spent a few hours but then i had the idea to increase the size of the image since the challenge name was tunnel vision, so i learnt what hex had the value of heigth and width and decided to increase the height, i tried a few small values at first and saw it was working and the image was showing more things and finally when i enetered 850 (converted to hex 0352 and entering format 52 03) as the height i got the brand new image which had the flag!!!
+After getting this image i was confused at what to do next, i tried various image proceesing steps like binwalk, exiftool but it led me no where, i spent a few hours but then i had the idea to increase the size of the image since the challenge name was tunnel vision, so i learnt what hex had the value of heigth and width and decided to increase the height (the height of the image was 0132, 306 in decimal and the width was 046E, 1134 in decimal) so i tried a few small values at first and saw it was working and the image was showing more things and finally when i enetered 850 (converted to hex 0352 and entering format 52 03) as the height i got the brand new image which had the flag!!!
 
 ![image](https://github.com/user-attachments/assets/f4f31cfa-015e-4c1c-9f87-42953b59855a)
 
