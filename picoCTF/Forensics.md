@@ -101,13 +101,16 @@ tried again on the second image and got the same output but when i tried on the 
 
 Knowledge Gained:
 
-1. 
-2. 
-3. 
+1. What is .pcapng file   
+2. How to analyze these type of files
+3. How to use tshark and wireshark
+4. What is TFTP and its working
+5. What is .deb file and how to install it
+6. What is steghide and how to use it 
 
 Incorrect Methods:
 
-- 
+- Using tshark instead of wireshark thinking it would be easier and wasting hours
 
 References
 
