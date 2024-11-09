@@ -94,6 +94,30 @@ on running this it asked for the password which was given in the question and th
 
 # PW Crack 1
 
+**Flag:** `picoCTF{545h_r1ng1ng_56891419}`
+
+Ran the python code it asked for a password so to find it i tried reading the python code and it was right there in a simple if condition, then i just entered the password and got the flag!!!
+
+# PW Crack 2
+
+**Flag:** ``
+
+S
+
+# PW Crack 3
+
+**Flag:** ``
+
+S
+
+# PW Crack 4
+
+**Flag:** ``
+
+S
+
+# PW Crack 5
+
 **Flag:** ``
 
 S
