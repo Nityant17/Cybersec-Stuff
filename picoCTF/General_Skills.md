@@ -108,7 +108,7 @@ Ran the python code it asked for a password so to find it i tried reading the py
 
 **Flag:** `picoCTF{m45h_fl1ng1ng_6f98a49f}`
 
-This time it gave us the possible passwords (7 options) and on reading the code i understood that it was basically taking the password as input then MD5 hashing it and comparing it to the hash file so i took the hashed file and used an online decrypter to find the correct password and tried that and got the flag!!!
+This time it gave us the possible passwords (7 options) and on reading the code i understood that it was basically taking the password as input then hashing it (used chatGPT to examine the code and find out that its MD5 hashing) and comparing it to the hash file so i took the hashed file and used an online decrypter to find the correct password and tried that and got the flag!!!
 
 -[MD5 Decrypter](https://md5decrypt.net/en/)
 
