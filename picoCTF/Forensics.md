@@ -31,6 +31,16 @@ References
 - [ChatGPT](www.chatgpt.com)
 - [Decoder](https://play.google.com/store/apps/details?id=xdsopl.robot36&hl=en_IN)
 
+# m00nwalk2
+
+**Flag:** `picoCTF{the_answer_lies_hidden_in_plain_sight}`
+
+So i saw there was another m00nwalk challenge thus i tried this too, this time there 4 files, the main trasnmission file was the same from the previous one but there were more files clue1,2,3. Now i tried using my phone app again but this time it gave me alot of trouble dont know why??, it took a lot of tries, rewinding and eardrums to finally get the photos from the files.
+
+![WhatsApp Image 2024-11-09 at 23 50 13_af88f9a0](https://github.com/user-attachments/assets/ca8b9a2a-cfc0-4a37-bed9-c2a99e997932)
+
+
+
 # Trivial Flag Transfer Protocol
 
 **Flag:** `picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}`
