@@ -110,7 +110,7 @@ Ran the python code it asked for a password so to find it i tried reading the py
 
 This time it gave us the possible passwords (7 options) and on reading the code i understood that it was basically taking the password as input then hashing it (used chatGPT to examine the code and find out that its MD5 hashing) and comparing it to the hash file so i took the hashed file and used an online decrypter to find the correct password and tried that and got the flag!!!
 
--[MD5 Decrypter](https://md5decrypt.net/en/)
+- [MD5 Decrypter](https://md5decrypt.net/en/)
 
 # PW Crack 4
 
