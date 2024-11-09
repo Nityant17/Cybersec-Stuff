@@ -14,6 +14,37 @@ ssh ctf-player@titan.picoctf.net -p 58532
 ```
 and get the flag!!!
 
+# what's a net cat?
+
+**Flag:** `picoCTF{nEtCat_Mast3ry_3214be47}`
+
+Need to use netcat (nc) to connect to "jupiter.challenges.picoctf.org" at port "41120" to get the flag, so we do that by using the command
+```
+nc jupiter.challenges.picoctf.org 41120
+```
+and get the flag!!!
+Learnt what nc command is and how it works
+
 #
 
 **Flag:** ``
+
+S
+
+#
+
+**Flag:** ``
+
+S
+
+#
+
+**Flag:** ``
+
+S
+
+#
+
+**Flag:** ``
+
+S
