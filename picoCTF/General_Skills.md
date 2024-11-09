@@ -100,9 +100,9 @@ Ran the python code it asked for a password so to find it i tried reading the py
 
 # PW Crack 2
 
-**Flag:** ``
+**Flag:** `picoCTF{tr45h_51ng1ng_9701e681}`
 
-S
+Ran the python code it asked for a password so to find it i tried reading the python code and it was right there in a simple if condition but in a different format (chr(0x34) + chr(0x65) + chr(0x63) + chr(0x39)) so i converted it and found the password, then i just entered the password and got the flag!!!
 
 # PW Crack 3
 
