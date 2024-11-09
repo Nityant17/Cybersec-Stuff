@@ -289,11 +289,11 @@ References
 - [chatGPT](chatgpt.com)
 - [XOR](https://ctf101.org/cryptography/what-is-xor/)
 
-#
+# Mod 26
 
-**Flag:** ``
+**Flag:** `picoCTF{next_time_I'll_try_2_rounds_of_rot13_ulYvpVag}`
 
-S
+We are given the flag in ciphertext with ROT13 applied to it so just decrypt it using ROT13 and get the flag!!!
 
 #
 
