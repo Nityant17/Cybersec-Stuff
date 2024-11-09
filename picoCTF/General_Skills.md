@@ -67,11 +67,14 @@ So i passed it with `-h` and got the flag!!!
 
 Got a zip file, unzipped it and used the terminal `cd` command to see whats in it and saw another directory inside it, so i guessed from the challenge name that we probably have to traverse alot of directories so i just used the `tab` key to get to the end directory there i saw a file which i tried to read but was unreadable so then i executed it and ZAP i got the flag!!!
 
-# 
+# strings it
 
-**Flag:** ``
+**Flag:** `picoCTF{5tRIng5_1T_7f766a23}`
 
-S
+Tried running the "strings" file, it said to try using the `strings` command so i learnt it and ran it and it printed alot of data so i used `grep` to find the flag in the data!!!
+```
+strings strings | grep "picoCTF"
+```
 
 # 
 
