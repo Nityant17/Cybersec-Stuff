@@ -181,3 +181,11 @@ References
 - [decimal and hex converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html?x=850)
 - [BMP file format](https://en.wikipedia.org/wiki/BMP_file_format)
 - [List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
+# Enhance!
+
+**Flag:** `picoCTF{3nh4nc3d_d0a757bf}`
+
+When i first downloaded the file i saw it was a wierd format so i googled about it and learned that it is a Scalable Vector Graphics file and these can be zoomed in without losing quality, but when i tried doing the enhancing i inspected the file adn there i say the flag in the code of inspect so i didnt even have to do anything to solve the challenge!!!
+
+
