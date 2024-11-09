@@ -61,11 +61,11 @@ So i passed it with `-h` and got the flag!!!
 ./warm -h
 ```
 
-# 
+# Tab, Tab, Attack
 
-**Flag:** ``
+**Flag:** `picoCTF{l3v3l_up!_t4k3_4_r35t!_524e3dc4}`
 
-S
+Got a zip file, unzipped it and used the terminal `cd` command to see whats in it and saw another directory inside it, so i guessed from the challeneg name that we probably have to traverse alot of directories so i just used the `tab` key to get to the end directory there i saw a file which i tried to read but was unreadable so then i executed it and ZAP i got the flag!!!
 
 # 
 
