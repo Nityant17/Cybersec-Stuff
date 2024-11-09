@@ -106,9 +106,9 @@ Ran the python code it asked for a password so to find it i tried reading the py
 
 # PW Crack 3
 
-**Flag:** ``
+**Flag:** `picoCTF{m45h_fl1ng1ng_6f98a49f}`
 
-S
+This time it gave us the possible passwords (7 options) and on reading the code i understood that it was basically taking the password as input then MD5 hashing it and comparing it to the hash file so i took all the possible passwords hashed them and compared them to the hashed file to find the correct password and tried that and got the flag!!!
 
 # PW Crack 4
 
