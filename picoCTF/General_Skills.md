@@ -26,19 +26,19 @@ and get the flag!!!
 
 Learnt what nc command is and how it works
 
-#
+# Warmed Up
 
-**Flag:** ``
+**Flag:** `picoCTF{61}`
 
-S
+Need to convert 0x3D (base 16) in decimal (base 10) and wrap in picoCTF for the flag, simple!!!
 
-#
+# 2Warm
 
-**Flag:** ``
+**Flag:** `picoCTF{101010}`
 
-S
+Need to convert the number 42 (base 10) to binary (base 2) and wrap in picoCTF for the flag, simple!!!
 
-#
+# Bases
 
 **Flag:** ``
 
