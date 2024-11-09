@@ -44,7 +44,37 @@ Need to convert the number 42 (base 10) to binary (base 2) and wrap in picoCTF f
 
 Given a ciphertext and need to decode and wrap it in picoCTF{} to get the flag, on looking at the challenge name i guessed it was base64 or base32 encoding and just decoded it using an online decoder and got the flag!!!
 
-#
+# Wave a flag
+
+**Flag:** ``
+
+S
+
+# 
+
+**Flag:** ``
+
+S
+
+# 
+
+**Flag:** ``
+
+S
+
+# 
+
+**Flag:** ``
+
+S
+
+# 
+
+**Flag:** ``
+
+S
+
+# 
 
 **Flag:** ``
 
