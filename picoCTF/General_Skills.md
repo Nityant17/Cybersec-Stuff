@@ -82,13 +82,17 @@ strings strings | grep "picoCTF"
 
 The file had alot of data so just used `grep` to find the flag!!!
 
-# 
+# Python Wrangling
 
-**Flag:** ``
+**Flag:** `picoCTF{4p0110_1n_7h3_h0us3_68f88f93}`
 
-S
+Got the code, password and encrypted flag file, so ran the python code on the terminal and it told to use "-e or d" as argument and give it the file so i did that 
+```
+python3 ende.py -d flag.txt.en
+```
+on running this it asked for the password which was given in the question and thus i got the flag!!!
 
-# 
+# PW Crack 1
 
 **Flag:** ``
 
