@@ -41,7 +41,7 @@ So i saw there was another m00nwalk challenge thus i tried this too, this time t
 
 ![WhatsApp Image 2024-11-09 at 23 59 34_9cdfbcd5](https://github.com/user-attachments/assets/5b9ade0d-32e8-4235-804f-cb5b59803930)
 
-I just googled Alan Eliasen the future boy and the first thing that showed up was a Steganography Tool, so i knew we had to use a steganography tool to get the flag from the main file, so i used steghide (installed from another challenge) with the password "hidden_stegosaurus" as per the image and got the flag!!!
+I just googled Alan Eliasen the future boy and the first thing that showed up was a Steganography Tool, so i knew we had to use a steganography tool to get the flag from the main file, so i used steghide (installed from another challenge) with the password "hidden_stegosaurus" as per the image and got the flag!!! (still dont know what the hint in clue2 (last image) means) 
 
 # Trivial Flag Transfer Protocol
 
