@@ -288,3 +288,21 @@ References
 
 - [chatGPT](chatgpt.com)
 - [XOR](https://ctf101.org/cryptography/what-is-xor/)
+
+#
+
+**Flag:** ``
+
+S
+
+#
+
+**Flag:** ``
+
+S
+
+#
+
+**Flag:** ``
+
+S
