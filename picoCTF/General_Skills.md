@@ -124,6 +124,6 @@ This time there were 100 possible options but the way to solve it was the same a
 
 # PW Crack 5
 
-**Flag:** ``
+**Flag:** `picoCTF{h45h_sl1ng1ng_36e992a6}`
 
-S
+This time they gave another complete file full of possible passwords but still just followed the PW 3 method and found the password and thus the flag!!!
