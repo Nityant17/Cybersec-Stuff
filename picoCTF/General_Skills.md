@@ -76,11 +76,11 @@ Tried running the "strings" file, it said to try using the `strings` command so 
 strings strings | grep "picoCTF"
 ```
 
-# 
+# First Grep
 
-**Flag:** ``
+**Flag:** `picoCTF{grep_is_good_to_find_things_5af9d829}`
 
-S
+The file had alot of data so just used `grep` to find the flag!!!
 
 # 
 
