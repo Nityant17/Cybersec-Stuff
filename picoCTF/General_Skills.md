@@ -46,9 +46,20 @@ Given a ciphertext and need to decode and wrap it in picoCTF{} to get the flag, 
 
 # Wave a flag
 
-**Flag:** ``
+**Flag:** `picoCTF{b1scu1ts_4nd_gr4vy_d6969390}`
 
-S
+Given a file "warm", so first i tried reading it but it was unreadable so then i checked what it was using the `file` command and it said 
+```
+warm: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=b11c22752c901adc13ba1ce86eda9d5516f22763, with debug_info, not stripped
+```
+After reading executable, i tried executing it and got the output
+```
+Hello user! Pass me a -h to learn what I can do!
+```
+So i passed it with `-h` and got the flag!!!
+```
+./warm -h
+```
 
 # 
 
