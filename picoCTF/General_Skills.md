@@ -23,6 +23,7 @@ Need to use netcat (nc) to connect to "jupiter.challenges.picoctf.org" at port "
 nc jupiter.challenges.picoctf.org 41120
 ```
 and get the flag!!!
+
 Learnt what nc command is and how it works
 
 #
