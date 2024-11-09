@@ -186,7 +186,7 @@ References
 
 **Flag:** `picoCTF{3nh4nc3d_d0a757bf}`
 
-When i first downloaded the file i saw it was a wierd format so i googled about it and learned that it is a Scalable Vector Graphics file and these can be zoomed in without losing quality, but when i tried doing the enhancing i inspected the file adn there i say the flag in the code of inspect so i didnt even have to do anything to solve the challenge!!!
+When i first downloaded the file i saw it was a wierd format so i googled about it and learned that it is a Scalable Vector Graphics file and these can be zoomed in without losing quality, but when i tried doing the enhancing i inspected the file and there i saw the flag in the code of inspect so i didnt even have to do anything to solve the challenge!!!
 
 ![image](https://github.com/user-attachments/assets/ba584cfb-48ee-4a64-a9f3-3565a4d75dd3)
 
