@@ -130,8 +130,11 @@ This time they gave another complete file full of possible passwords but still j
 
 # Big Zip
 
-**Flag:** ``
+**Flag:** `picoCTF{gr3p_15_m4g1c_ef8790dc}`
 
-This challenge had a zipped file which conatined alot of directories, subdirectories and files so to flag inside here i just used grep with argument 
+This challenge had a zipped file which conatined alot of directories, subdirectories and files so to flag inside here i just used grep with argument -r to find the flag!!!
+```
+grep -r "picoCTF" ./big-zip-files
+```
 
 # 
