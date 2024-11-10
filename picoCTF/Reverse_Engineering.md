@@ -20,5 +20,5 @@ Got the source code file so read it and it showed the ciphered password and it w
 
 **Flag:** `picoCTF{SAf3_0p3n3rr_y0u_solv3d_it_198203f7}`
 
-i just tried to read the file some part was unreadable but the flag was right there completely readable, i didnt expect this to be so easy!!!
+i just tried to read the file some part was unreadable but the flag was right there completely readable, i didnt expect this to be so easy!!! (just to learn some more i tried a different method and apprantely you can decompile java codes so i did that using an online decoder and that fixed the code and also gave me the flag)
 
