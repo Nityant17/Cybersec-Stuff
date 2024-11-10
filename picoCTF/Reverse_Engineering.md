@@ -12,9 +12,9 @@ Read the source code and and found that it checked the password (flag) entered b
 
 # vault-door-3
 
-**Flag:** ``
+**Flag:** `picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}`
 
-s
+So again i read the code and tried to understand it, it was basically taking the flag and jumbling it up according to some conditions to get a ciphered flag which it compared to a stored value, so i took the stored value and unjumbled it by reversing all the conditions and steps, this took along time since i did it manually (dont know java language) so it was a bit tedious but the challenge itself was simple and thus i got the flag!!!
 
 # keygenme-py
 
