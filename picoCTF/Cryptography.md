@@ -299,9 +299,9 @@ We are given the flag in ciphertext with ROT13 applied to it so just decrypt it 
 
 **Flag:** `picoCTF{5UB5717U710N_3V0LU710N_357BF9FF}`
 
-The cipher was a substitution cipher so i just searched online for a substitution decoder and it didnt work then i tried understanding the cipher and saw there was a weird key like thing at the start of the cipher and also it seemed like the letters were just intechanged between each other but each letter only corresponded to one value (used chatGPT and it suggested that this could be a Mono-alphabetic Substitution cipher) so i searched for an online decoder that could solve this and found a site in which i gave the cipher and they key and it decoded the cipher and gave me the flag!!!
+The cipher was a substitution cipher so i just searched online for a substitution decoder and it didnt work then i read the hint and it said to try using a frequency attack so i used ChatGPT to understand what that was and it suggested that this is basically used to decode caeser ciphers so i searched online for a caeser decoder but that didnt work either so i looked at the cipher and i saw a wierd key like text at the starting of the cipher so i asked if there was verion of caeser cipher that used a key thus i found that this was keyed caeser cipher, so again found an online decoder and voila it worked and gave me the flag!!!
 
-- [Decoder](https://www.dcode.fr/monoalphabetic-substitution)
+- [Decoder](https://www.boxentriq.com/code-breaking/keyed-caesar-cipher)
 
 #
 
