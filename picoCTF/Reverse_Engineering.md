@@ -37,6 +37,15 @@ Read the code and found out it was just first URL encoding the flag and then bas
 
 Basically the code just took each character of the flag and XORed it with `0x55` and then subtracted it with the stored values and if it was not equal to 0 it retruned false that meant on XORing each character of the flag we are basically getting the stored values so i just took the stored values gave it to chatGPT and asked it to XOR all of them with `0x55` (since XOR is reversible) and convert those values to text to finally get the flag!!!
 
+# vault-door-7
+
+**Flag:** `picoCTF{A_b1t_0f_b1t_sh1fTiNg_dc80e28124}`
+
+Read the code and understood that this was basically taking 4 characters at a time converting them to ASCII then to binary putting them together and then converting this set of 32 bits into a int and then comparing to stored ints so i took those stored ints gave it to ChatGPT to convert them to binary then asked it to convert the binary to ASCII but the free version ended so it couldnt do that so then i manually turned all the binaries to ASCII then to text and finally got the flag!!! (i dont know why but the last 2 ints were 9 numbers in length instead of 10 so they gave me 31 bits this took alot of time to fgure out how to divide the bits to convert to decimal and after few hours i realized i just had to add a 0 to the starting of the binary :( )
+
+- [Binary to Decimal](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html)
+- [ASCII Table](https://www.asciitable.com/)
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
