@@ -16,5 +16,9 @@ Started the challenge and knew had to understand the source code to find the fla
 
 Got the source code file so read it and it showed the ciphered password and it was written base 64 encoder in the code so i just put the ciphered password in a decrypter and got the flag!!!
 
+# Safe Opener 2
 
+**Flag:** `picoCTF{SAf3_0p3n3rr_y0u_solv3d_it_198203f7}`
+
+i just tried to read the file some part was unreadable but the flag was right there completely readable, i didnt expect this to be so easy!!!
 
