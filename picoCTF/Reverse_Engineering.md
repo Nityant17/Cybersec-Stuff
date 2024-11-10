@@ -10,6 +10,12 @@ Started the challenge and basically it said to check the source code and extract
 
 Read the source code and and found that it checked the password (flag) entered by comparing it to the stored values, so i arranged all the stored characters as per the place checked and got the flag!!!
 
+# vault-door-3
+
+**Flag:** ``
+
+s
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
