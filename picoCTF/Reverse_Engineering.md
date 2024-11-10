@@ -18,9 +18,9 @@ So again i read the code and tried to understand it, it was basically taking the
 
 # vault-door-4
 
-**Flag:** ``
+**Flag:** `picoCTF{jU5t_4_bUnCh_0f_bYt3s_8f4a6cbf3b}`
 
-s
+Read the code and understood that it was basically converting each character to bytes and comparing it to the bytes of the stored values which were in form of ASCII, hex, octal and just normal text so i converted all the stored values to text and put them together to get the flag!!!
 
 # keygenme-py
 
