@@ -8,7 +8,7 @@ Started the challenge and basically it said to check the source code and extract
 
 **Flag:** `picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_75092e}`
 
-Read the source code and and found that it checked the password (flag) enetered by comparing it to the stored values, so i arranged all the stored characters as per the place checcked and got the flag!!!
+Read the source code and and found that it checked the password (flag) enetered by comparing it to the stored values, so i arranged all the stored characters as per the place checked and got the flag!!!
 
 # keygenme-py
 
