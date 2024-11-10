@@ -303,8 +303,8 @@ The cipher was a substitution cipher so i just searched online for a substitutio
 
 - [Decoder](https://www.boxentriq.com/code-breaking/keyed-caesar-cipher)
 
-#
+# substitution1
 
-**Flag:** ``
+**Flag:** `picoCTF{FR3QU3NCY_4774CK5_4R3_C001_7AA384BC}`
 
-S
+Again i tried the same decoder but i didnt know the key so i just clicked decode without key and it decoded the cipher to many possibilities that it could be and luckily one of them was correct and thus i was able to get the flag!!!
