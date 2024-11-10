@@ -308,3 +308,9 @@ The cipher was a substitution cipher so i just searched online for a substitutio
 **Flag:** `picoCTF{FR3QU3NCY_4774CK5_4R3_C001_7AA384BC}`
 
 Again i tried the same decoder but i didnt know the key so i just clicked decode without key and it decoded the cipher to many possibilities that it could be and luckily one of them was correct and thus i was able to get the flag!!!
+
+# substitution2
+
+**Flag:** `picoCTF{N6R4M_4N41Y515_15_73D10U5_42EA1770}`
+
+Again i tried the same decoder, clicked didnt know the key, it gave many decryptions and again one of them was correct and so i was able to get the flag with no issues, i am really lucky that i found this site!!!
