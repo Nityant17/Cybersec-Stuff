@@ -22,6 +22,15 @@ So again i read the code and tried to understand it, it was basically taking the
 
 Read the code and understood that it was basically converting each character to bytes and comparing it to the bytes of the stored values which were in form of ASCII, hex, octal and just normal text so i converted all the stored values to text and put them together to get the flag!!!
 
+# vault-door-5 
+
+**Flag:** `picoCTF{c0nv3rt1ng_fr0m_ba5e_64_84fd5095}`
+
+Read the code and found out it was just first URL encoding the flag and then base64 encoding to compare to the stored value so i just took the stored value gave it to a base64 decoder and then gave that to a URL decoder to get the flag!!!
+
+- [base64 decoder](https://www.base64decode.org/)
+- [URL decoder](https://www.urldecoder.org/)
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
