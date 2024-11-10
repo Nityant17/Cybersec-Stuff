@@ -4,6 +4,12 @@
 
 Started the challenge and basically it said to check the source code and extract the password from there because that was the flag, so i read the code and the password was simply there so i was able to solve the challenge!!!
 
+# vault-door-1
+
+**Flag:** `picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_75092e}`
+
+Read the source code and and found that it checked the password (flag) enetered by comparing it to the stored values, so i arranged all the characters as per the place checcked and got the flag!!!
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
