@@ -145,5 +145,7 @@ Just had to fix an indentation error in the code and got the flag!!!
 
 # fixme2.py
 
-**Flag:** ``
+**Flag:** `picoCTF{3qu4l1ty_n0t_4551gnm3nt_f6a5aefc}`
+
+The code had use assignment operator instead of equality operator so just added on more = to fix the code and get the flag!!!
 
