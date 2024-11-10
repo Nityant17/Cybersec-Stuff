@@ -31,6 +31,12 @@ Read the code and found out it was just first URL encoding the flag and then bas
 - [base64 decoder](https://www.base64decode.org/)
 - [URL decoder](https://www.urldecoder.org/)
 
+# vault-door-6
+
+**Flag:** `picoCTF{n0t_mUcH_h4rD3r_tH4n_x0r_948b888}`
+
+Basically the code just took each character of the flag and XORed it with `0x55` and then subtracted it with the stored values and if it was not equal to 0 it retruned false that meant on XORing each character of the flag we are basically getting the stored values so i just took the stored values gave it to chatGPT and asked it to XOR all of them with `0x55` (since XOR is reversible) and convert those values to text to finally get the flag!!!
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
