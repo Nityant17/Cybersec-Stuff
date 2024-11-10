@@ -137,4 +137,13 @@ This challenge had a zipped file which conatined alot of directories, subdirecto
 grep -r "picoCTF" ./big-zip-files
 ```
 
-# 
+# fixme1.py
+
+**Flag:** `picoCTF{1nd3nt1ty_cr1515_6a476c8f}`
+
+Just had to fix an indentation error in the code and got the flag!!!
+
+# fixme2.py
+
+**Flag:** ``
+
