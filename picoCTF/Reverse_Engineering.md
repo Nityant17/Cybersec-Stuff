@@ -50,7 +50,7 @@ Read the code and understood that this was basically taking 4 characters at a ti
 
 **Flag:** `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_2e762b0ab}`
 
-Read the code and understood a few parts of this code but i knew i couldnt solve this manually (it was switching bits then masking them and bit shifting them this would have taken ages to solve by hand), i had to just use the code and reverse the logic to solve it but i dint know java so used blackbox.ai to help me reverse the code and then i ran it on an online compiler and voila i got the flag!!!
+Read the code and understood a few parts of this code but i knew i couldnt solve this manually (it was switching bits by masking them and bit shifting them this would have taken ages to solve by hand), i had to just use the code and reverse the switchbits called by just reordering the calls in reverse and giving the sotored values as input to solve it but i dint know java so used blackbox.ai to help me reverse the code and then i ran it on an online compiler and voila i got the flag!!!
 
 # keygenme-py
 
