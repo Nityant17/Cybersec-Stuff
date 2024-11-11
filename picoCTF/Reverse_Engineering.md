@@ -46,6 +46,12 @@ Read the code and understood that this was basically taking 4 characters at a ti
 - [Binary to Decimal](https://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html)
 - [ASCII Table](https://www.asciitable.com/)
 
+# vault-door-8
+
+**Flag:** `picoCTF{s0m3_m0r3_b1t_sh1fTiNg_2e762b0ab}`
+
+Read the code and understood a few parts of this code but i knew i coudlnt solve this manually, i had to just use the code and reverse the logic to solve it but i dint know java so used blackbox.ai to help me reverse the code and then i ran it on an online decompiler and voila i got the flag!!!
+
 # keygenme-py
 
 **Flag:** `picoCTF{1n_7h3_|<3y_of_01582419}`
