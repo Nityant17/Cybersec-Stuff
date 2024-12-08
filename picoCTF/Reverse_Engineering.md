@@ -70,3 +70,7 @@ Got the source code file so read it and it showed the ciphered password and it w
 
 i just tried to read the file some part was unreadable but the flag was right there completely readable, i didnt expect this to be so easy!!! (just to learn some more i tried a different method and apprantely you can decompile java codes so i did that using an online decoder and that fixed the code and also gave me the flag)
 
+# ARMssembly 0
+
+**Flag:** `picoCTF{f51e846f}`
+
