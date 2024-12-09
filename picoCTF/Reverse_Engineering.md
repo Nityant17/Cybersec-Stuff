@@ -77,3 +77,9 @@ i just tried to read the file some part was unreadable but the flag was right th
 started the challenge and opened the given ARM assembly but was not able to understand much but i saw `.arch armv8-a` on the starting of the code so i asked chatGPT to tell me how to run these type of assemblies and found out that i cant directly run these type of codes as my device is a non-ARMv8 machine so i need to first use a cross compiler so i installed `binutils-aarch64-linux-gnu` and `gcc-aarch64-linux-gnu` then i used `aarch64-linux-gnu-as -o ch.o chall.S` and `aarch64-linux-gnu-gcc -static -o ch ch.o` to assemble the code and get an executable binary file `ch` but to i wasnt able to execute it directly so i installed `qemu-user-static` to make non compatibile binaries executable and thus i was able to run the file `./ch 4112417903 1169092511` which gave the output `Result: 4112417903` which i then converted to hex format as specified and got the flag!!!
 
 - [Steps to run ARMv8 assembly](https://github.com/joebobmiles/ARMv8ViaLinuxCommandline)
+
+# ARMssembly 1
+
+**Flag:** `picoCTF{000000e8}`
+
+i cross compiled the assembly and then ran it and entered 8733 as the argument but it told me you lose so i understood that running the code wont work since i need the argument for the flag so i put the assembly into chatGPT to explain the working of it and i found that to win we needed to enter the value same as `(87≪3)/3` as the program was subtracting the argument from this value and if it was equal to 0 it gave us the win so i knew the argument was `(87≪3)/3` which is equal to 232 so then i coverted it to hex as per the format and got the flag!!! 
