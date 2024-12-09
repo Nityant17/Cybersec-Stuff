@@ -76,4 +76,4 @@ i just tried to read the file some part was unreadable but the flag was right th
 
 started the challenge and opened the given ARM assembly but was not able to understand much but i saw `.arch armv8-a` on the starting of the code so i asked chatGPT to tell me how to run these type of assemblies and found out that i cant directly run these type of codes as my device is a non-ARMv8 machine so i need to first use a cross compiler so i installed `binutils-aarch64-linux-gnu` and `gcc-aarch64-linux-gnu` then i used `aarch64-linux-gnu-as -o ch.o chall.S` and `aarch64-linux-gnu-gcc -static -o ch ch.o` to assemble the code and get an executable binary file `ch` but to i wasnt able to execute it directly so i installed `qemu-user-static` to make non compatibile binaries executable and thus i was able to run and the file `./ch 4112417903 1169092511` which gave the output `Result: 4112417903` which i then converted to hex format as specified and got the flag!!!
 
--[Steps to run ARMv8 assembly](https://github.com/joebobmiles/ARMv8ViaLinuxCommandline)
+- [Steps to run ARMv8 assembly](https://github.com/joebobmiles/ARMv8ViaLinuxCommandline)
