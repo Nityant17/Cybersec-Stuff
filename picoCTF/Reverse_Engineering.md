@@ -83,3 +83,9 @@ started the challenge and opened the given ARM assembly but was not able to unde
 **Flag:** `picoCTF{000000e8}`
 
 i cross compiled the assembly and then ran it and entered 8733 as the argument but it told me you lose so i understood that running the code wont work since i need the argument for the flag so i put the assembly into chatGPT to explain the working of it and i found that to win we needed to enter the value same as `(87≪3)/3` as the program was subtracting the argument from this value and if it was equal to 0 it gave us the win so i knew the argument was `(87≪3)/3` which is equal to 232 so then i coverted it to hex as per the format and got the flag!!! 
+
+# ARMssembly 2
+
+**Flag:** `picoCTF{9c174346}`
+
+i just cross compiled the code and ran it with the specified argument `3736234946` it took a minute but it gave me the output `Result: 2618770246` which i converted to hex as per the format and got the flag!!!
