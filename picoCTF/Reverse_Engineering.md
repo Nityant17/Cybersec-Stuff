@@ -97,3 +97,7 @@ i just cross compiled the code and ran it with the specified argument `373623494
 i just cross compiled the code and ran it with the specified argument `469937816` it gave me the output `Result: 36` which i converted to hex as per the format and got the flag!!!
 
 # ARMssembly 4
+
+**Flag:** `picoCTF{c1cc042c}`
+
+i just cross compiled the code and ran it with the specified argument `3251372985` it gave me the output `Result: 3251373100` which i converted to hex as per the format and got the flag!!!
