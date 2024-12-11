@@ -101,3 +101,10 @@ i just cross compiled the code and ran it with the specified argument `469937816
 **Flag:** `picoCTF{c1cc042c}`
 
 i just cross compiled the code and ran it with the specified argument `3251372985` it gave me the output `Result: 3251373100` which i converted to hex as per the format and got the flag!!!
+
+# GDB Test Drive
+
+**Flag:** `picoCTF{d3bugg3r_dr1v3_72bd8355}`
+
+Just followed all the steps mentioned to get the flag!!!
+
