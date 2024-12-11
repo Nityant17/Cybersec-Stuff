@@ -108,3 +108,8 @@ i just cross compiled the code and ran it with the specified argument `325137298
 
 Just followed all the steps mentioned to get the flag!!!
 
+# GDB baby step 1
+
+**Flag:** `picoCTF{549698}`
+
+Downloaded the file, we needed to find the eax register value at the end of the main fucntion so opened the binary in gdb and then viewed the main fucntion by using `disassemble main` there i saw the hex value registered to eax which i then converted and got the flag!!!
