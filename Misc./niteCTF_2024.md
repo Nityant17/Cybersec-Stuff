@@ -144,11 +144,11 @@ Please solve the proof-of-work challenge first:
 
 python3 pow.py solve s.ACcQ.AACpPV9xQRz4KzBJTJr5/O0c
 
-Solution?
+Solution:
 ```
 So i ran the command and got the output
 ```
-python3 pow.py solve s.ACcQ.AACpPV9xQRz4KzBJTJr5/O0c
+$ python3 pow.py solve s.ACcQ.AACpPV9xQRz4KzBJTJr5/O0c
 Solution:
 s.AAADpFlo9Q7sLg6juSkbIwKGL5KkWWxYCJmYfs5wYm2/hxgD+ZqZ9AkfAS7kHrE8kMNcPKC+6+ZiGyvkvOr9Xd0f7dTKb6ZbG30IPEobbY15mLWw/Di30/Qv1i7w9lizQsmqoOFc1sTyOlSZt+kmrTRuq21lSWRljHZ3woyBiVLwOsQ7xlZwSlTvJ6759gRZdZ9PWDhWmHu4U39C4tVfWi/Y
 ```
