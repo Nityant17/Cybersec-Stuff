@@ -131,6 +131,28 @@ Vault Unlocked! The flag is: nite{El_Pr0f3_0f_Prec1s10n_Pl4ns}
 
 # Mumbo Dumbo
 
+**Description:** Deep within the void lies the Key, shrouded in secrecy and guarded by the enigmatic Keeper. Created for a single purpose, the Keeper has vowed to protect the Key, its defenses said to be unbreakable. But whispers tell of a flaw-a hidden crack in its impenetrable armor. Those who dare to seek the Key must tread lightly, for the Keeper is cunning and relentless, answering only to the most devious of minds. Will you uncover the Keeper's secret, or be lost in the void forever?
+
+We are given a code (too long to show in writeup) and and a way to connect
+```
+ncat --ssl mumbo-dumbo.chals.nitectf2024.live 1337
+```
+Started by understanding the code by puting in chatGPT and trying myself and finally got that the code was used to either "solve" or "check" a value which i didnt understand at first, then i connected via the command and it all made sense, on connecting this was printed
+```
+== proof-of-work: enabled ==
+Please solve the proof-of-work challenge first:
+
+python3 pow.py solve s.ACcQ.AACpPV9xQRz4KzBJTJr5/O0c
+
+Solution?
+```
+So i ran the command and got the output
+```
+python3 pow.py solve s.ACcQ.AACpPV9xQRz4KzBJTJr5/O0c
+Solution:
+s.AAADpFlo9Q7sLg6juSkbIwKGL5KkWWxYCJmYfs5wYm2/hxgD+ZqZ9AkfAS7kHrE8kMNcPKC+6+ZiGyvkvOr9Xd0f7dTKb6ZbG30IPEobbY15mLWw/Di30/Qv1i7w9lizQsmqoOFc1sTyOlSZt+kmrTRuq21lSWRljHZ3woyBiVLwOsQ7xlZwSlTvJ6759gRZdZ9PWDhWmHu4U39C4tVfWi/Y
+```
+On copy pasting this solution it said proof of work verified and started my chat with the AI assistant which i needed to trick somehow into giving me the flag.
 
 
 # Glitch, Please!
