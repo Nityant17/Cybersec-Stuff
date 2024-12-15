@@ -85,3 +85,48 @@ if __name__ == "__main__":
     menu(secret_key)
 ```
 So i started the challenge by understanding the code, on looking through the code we can see that to get the flag we need the password to the vault which we can get by saying our username is "Bob" and then providing the correct HMAC value but this is easier said than done, so now i started to find ways to get the hmac first i just put it in chatGPT and asked it to give me the HMAC but didnt work then i realized that it was using the value of "secret" which would contain something in the actual connected code and here it is just X so there must be way to get the code to give me the HMAC by itself. So with this in mind i try to understand the code more deeply and find out that we can use practice convo to get the vlaue of secret instead moreover we didnt need to find the value of secret at all, the value of HMAC was being calculated by base64 decoding a md5 hash of secret and the username "Bob" and what practice convo did was give the value of md5 hash of secret and whatever we inputted so i could just enter "Bob" and get the hash, which i then just needed to base 64 decode to get the value of HMAC which i did and entered and voila it worked and i got the password which i used to crack the vault and get the flag!!!
+```
+ _             ____                      _        ____                  _
+| |    __ _   / ___|__ _ ___  __ _    __| | ___  |  _ \ __ _ _ __   ___| |
+| |   / _` | | |   / _` / __|/ _` |  / _` |/ _ \ | |_) / _` | '_ \ / _ \ |
+| |__| (_| | | |__| (_| \__ \ (_| | | (_| |  __/ |  __/ (_| | |_) |  __/ |
+|_____\__,_|  \____\__,_|___/\__,_|  \__,_|\___| |_|   \__,_| .__/ \___|_|
+                                                            |_|
+
+
+1. Practice Convo
+2. Let's Fool Alice!
+3. Crack the Vault
+4. Exit
+Choose an option: 1
+Send a message: Bob
+Here is your encrypted message: YjRlMGE4MDI0MjhjYjM1ZjY5YzBlOTUyZDk2MTcyZDY=
+
+1. Practice Convo
+2. Let's Fool Alice!
+3. Crack the Vault
+4. Exit
+Choose an option: 2
+
+Bot: Okay, let's see if you're the real deal. What's your name?
+Your name: Bob
+
+Bot: Please provide your HMAC
+Your HMAC: b4e0a802428cb35f69c0e952d96172d6
+
+Alice: Oh hey Bob! Here is the vault code you wanted:
+G0t_Th3_G0ld_B3rl1nale
+
+1. Practice Convo
+2. Let's Fool Alice!
+3. Crack the Vault
+4. Exit
+Choose an option: 3
+
+Vault Person: Enter password
+Password: G0t_Th3_G0ld_B3rl1nale
+
+Vault Unlocked! The flag is: nite{El_Pr0f3_0f_Prec1s10n_Pl4ns}
+```
+
+# 
