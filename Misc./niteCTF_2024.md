@@ -286,7 +286,7 @@ plt.savefig(output_path)
 print(f"Final image saved to {output_path}")
 plt.show()
 ```
-It finally gave me images that made sense and hence the flag!!!
+And it worked, it finally gave me images that made sense and hence the flag!!!
 ![final_combined_image_matplotlib](https://github.com/user-attachments/assets/c2760f46-a5c0-4a31-b090-e527a81b3e8c)
 Originally the letters were all jumbled up so i just kept rearranging the extracted csv file on different collumns till i got them arranged correctly.
 
