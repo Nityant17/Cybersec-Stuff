@@ -164,3 +164,130 @@ nite{C@TCHME!FY0UCAN}.
 ```
 
 # Glitch, Please!
+
+**Description:** The hit MMORPG, "All Alone in the Forest" recently held a thrilling e-sports tournament. But controversy ensued when 20 players were suspected of exploiting a hidden glitch-gaining unfair advantages by managing to overflow their inventory limits and drastically reducing their feedback delay to physically impossible levels. Your mission, should you choose to accept it, is to uncover these dirty little cheats and expose their faces, in order to find the flag.
+
+We are given a ".csv" file with the collumns
+```
+PlayerID,GameSession,PlayerScore,ItemsCollected,ConnectionPing,SessionDuration,NumKills,Accuracy,NumDeaths,GameLevel,MaxCombo,WeaponType,NumBoosts,GameRegion,ProfilePic (256x256)
+```
+Now on reading the csv file it was unreadable due to last collumn which had a matrix of values, so i removed it using `sed` and `awk` to manipulate the file, this made it more readable now to move towards the flag i focused on the description since this gave me a similar feeling as a challenge i solved in the OASIS ctf, so on doing that it hit me to sort the players based on the "ItemsCollected" collumn since the players cheated by overflowing their inventories and voila i see exactly 20 players with absurdly high item counts so i extracted these 20 IDs. Now the description says to expose their faces to find the flag and conveniently there is a collumn of "ProfilePic" so i knew that we had to convert the matrices into images to get the flag. So i got to researching what they could mean and how i could convert it to images so i found out that they were "rgb" and "rgba" pixel values which i could convert with a python code. This is where it took a bad turn, the code to get the images took a long time to get right I had to go through multiple iterations cause initially i was using the "PIL" module to generate the images and that too at a size of 32x32 since the first code said that there werent enough values for 256x256 photo but turns out that was not true. The first few set of images i got made absolutely no sense and led me down alot of wrong rabbit holes.
+
+The wrong code
+```
+import csv
+import numpy as np
+from PIL import Image
+import sys
+
+# Increase the field size limit
+csv.field_size_limit(sys.maxsize)
+
+# Read the CSV file
+csv_file = 'modified_file_final.csv'  # Replace with your file path
+
+with open(csv_file, mode='r') as file:
+    reader = csv.reader(file)
+    rows = list(reader)
+
+# Process each row and create a 256x256 image
+images = []
+
+for i in range(20):  # We have 20 rows to process
+    first_row = rows[i]
+    
+    # Extract the RGB/RGBA tuple from the last column
+    color_data = eval(first_row[-1])  # Assuming the tuple is in the last column as a string
+    
+    # Ensure the color data can form a 256x256 image
+    image_data = np.array(color_data).reshape((256, 256, -1))  # Reshape to 256x256
+
+    # Convert to an image
+    if image_data.shape[2] == 4:
+        # If RGBA
+        img = Image.fromarray(image_data, 'RGBA')
+    else:
+        # If RGB
+        img = Image.fromarray(image_data, 'RGB')
+    
+    # Append the image to the list
+    images.append(img)
+
+# Now, combine all 20 images into one final image (5x4 or 4x5 grid)
+final_image_width = 256 * 5  # 5 columns of 256px
+final_image_height = 256 * 4  # 4 rows of 256px
+
+final_image = Image.new('RGBA', (final_image_width, final_image_height))  # Use 'RGB' if no alpha channel
+
+# Positioning for each image in the grid
+x_offset = 0
+y_offset = 0
+image_width, image_height = images[0].size
+
+for i, img in enumerate(images):
+    # Paste each image at the correct position
+    final_image.paste(img, (x_offset, y_offset))
+    
+    # Update the position for the next image
+    x_offset += image_width
+    if x_offset >= final_image.width:
+        x_offset = 0
+        y_offset += image_height
+
+# Save the final combined image
+output_path = 'final_combined_image1.png'  # Replace with your desired file path
+final_image.save(output_path)
+
+print(f"Final image saved to {output_path}")
+```
+The image this gave me
+![final_combined_image1](https://github.com/user-attachments/assets/06723348-1fd8-4708-8052-301dd17a6d3a)
+Now after wasting hours on these failures i tried switching to the "matplot" library since thats more famous and commonly used
+```
+import csv
+import numpy as np
+import matplotlib.pyplot as plt
+import sys
+
+# Increase the field size limit
+csv.field_size_limit(sys.maxsize)
+
+# Read the CSV file
+csv_file = 'sorted_file.csv'  # Replace with your file path
+
+with open(csv_file, mode='r') as file:
+    reader = csv.reader(file)
+    rows = list(reader)
+
+# Create a figure to hold all the images
+fig, axes = plt.subplots(4, 5, figsize=(15, 12))  # Adjust grid size here (4x5 grid for example)
+axes = axes.flatten()  # Flatten the 2D array of axes for easy indexing
+
+# Process each row and create a 256x256 image
+for i in range(20):  # We have 20 rows to process
+    first_row = rows[i]
+    
+    # Extract the RGB/RGBA tuple from the last column
+    color_data = eval(first_row[-1])  # Assuming the tuple is in the last column as a string
+    
+    # Ensure the color data can form a 256x256 image
+    image_data = np.array(color_data).reshape((256, 256, -1))  # Reshape to 256x256
+
+    # Show the image on the corresponding axis
+    ax = axes[i]
+    ax.imshow(image_data)
+    ax.axis('off')  # Hide the axes
+
+# Adjust layout and save the final image
+plt.tight_layout()
+output_path = 'final_combined_image_matplotlib.png'  # Replace with your desired file path
+plt.savefig(output_path)
+
+print(f"Final image saved to {output_path}")
+plt.show()
+```
+It finally gave me images that made sense and hence the flag!!!
+![final_combined_image_matplotlib](https://github.com/user-attachments/assets/c2760f46-a5c0-4a31-b090-e527a81b3e8c)
+Originally the letters were all jumbled up so i just kept rearranging the extracted csv file on different collumns till i got them arranged correctly.
+
+PS: I hate chatGPT why cant it just give the code correctly the first time, it takes so much time to fix all the mistakes the code has, it needs to learn more
