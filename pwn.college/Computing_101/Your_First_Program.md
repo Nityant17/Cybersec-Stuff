@@ -55,4 +55,23 @@ with this i got the **Flag:** `pwn.college{ElgrLUj9VTeCMIBitRdTcJevYR7.dBzN4UDLw
 
 ## Building Executables
 
+Had to assemble the code ourselves for this challenge. So started by specifying the type of assembly syntax we are using i.e `.intel_syntax noprefix` and also specifying where the assembler should start assembling the code from
 
+```asm
+.intel_syntax noprefix
+.global _start
+_start:
+mov rdi,42
+mov rax,60
+syscall
+```
+
+Now assembled the assembly code into a binary then to an executable using `as` and `ld`
+
+```bash
+~$ as -o asm.o code.s
+~$ ld -o exe asm.o
+~$ ./exe
+```
+
+with this i got the **Flag:** `pwn.college{oorUkNvkKN8BjkaH6ntLhEtpJVz.QXwcjMwEDLwMTN0czW}`
