@@ -13,6 +13,7 @@
 - MULtiply
 - DIVide
 - MOVe
+- MOVe Sign eXtended
 - CoMPare
 - TEST
 
