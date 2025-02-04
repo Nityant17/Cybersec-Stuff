@@ -23,9 +23,11 @@
 ## Your First Register
 
 - Had to move value '60' into `rax` register so did that
-```
+
+```asm
 mov rax,60
 ```
+
 with this i got the **Flag:** `pwn.college{YfQkFRrWYaAGjYCFLqNbW6QsW3P.dNDN4UDLwMTN0czW}`
 
 ## Your First Syscall
