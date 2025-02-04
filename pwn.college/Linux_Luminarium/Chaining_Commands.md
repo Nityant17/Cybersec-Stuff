@@ -35,7 +35,7 @@
 - Need to create a script that calls the `/challenge/pwn` command followed by the `/challenge/college` command, and pipe the output of the script into a single invocation of the `/challenge/solve` command to get the flag.
 
 **Solution:**
-- Start the challenge, input the command `vim x.sh` to create the script and open it in vim editor and write the commands `/challenge/pwn` and then `/challenge/college` in it, then execute this script and pipe its output to `/challenge/solve` by entering `bash x.sh | /challenge/solve` to get the flag. 
+- Start the challenge, input the command `vi x.sh` to create the script and open it in vi editor and write the commands `/challenge/pwn` and then `/challenge/college` in it, then execute this script and pipe its output to `/challenge/solve` by entering `bash x.sh | /challenge/solve` to get the flag. 
 
 **Flag Obtained:**
 > *pwn.college{g2ke9pRve_QrUAs4ACv4Id49X67.dhTM5QDLwMTN0czW}*
