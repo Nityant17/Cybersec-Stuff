@@ -80,7 +80,7 @@ with this i got the **Flag:** `pwn.college{oorUkNvkKN8BjkaH6ntLhEtpJVz.QXwcjMwED
 
 Had to exit with the secret exit code which was stored in `rsi` register which is basically just used for storing values (it also passes the second parameter to system call), so i moved the value from `rsi` to `rdi` to change the exit code
 
-```
+```asm
 .intel_syntax noprefix
 .global _start
 _start:
