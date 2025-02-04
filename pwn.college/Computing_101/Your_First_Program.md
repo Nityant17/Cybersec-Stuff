@@ -18,7 +18,7 @@
 - TEST
 - INCrement
 - DECrement
-- -eXCHanGe
+- eXCHanGe
 
 ## Your First Register
 -
