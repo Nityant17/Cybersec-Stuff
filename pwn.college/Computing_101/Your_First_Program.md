@@ -43,3 +43,16 @@ with this i got the **Flag:** `pwn.college{4XMN8h1CNQo9YWVddxbG72SxgP2.dhjN4UDLw
 
 ## Exit Codes
 
+Had to exit with an exit code of '42' so added the exit code to the `rdi` register which stores the exit code value
+
+```asm
+mov rdi,42
+mov rax,60
+syscall
+```
+
+with this i got the **Flag:** `pwn.college{ElgrLUj9VTeCMIBitRdTcJevYR7.dBzN4UDLwMTN0czW}`
+
+## Building Executables
+
+
