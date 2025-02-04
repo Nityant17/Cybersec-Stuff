@@ -16,6 +16,8 @@
 - MOVe Sign eXtended
 - CoMPare
 - TEST
+- INCrement
+- DECrement
 
 ## Your First Register
 -
